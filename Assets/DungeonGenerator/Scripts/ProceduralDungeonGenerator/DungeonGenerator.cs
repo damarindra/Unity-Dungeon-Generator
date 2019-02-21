@@ -7,8 +7,8 @@ namespace DI.DungeonGenerator
 	public class DungeonGenerator : MonoBehaviour {
 		
 		public virtual void StartRoomGeneration() { }
-		[SerializeField]public List<Room> rooms = new List<Room>();
-		public List<Corridor> corridors = new List<Corridor>();
+		[HideInInspector] public List<Room> rooms = new List<Room>();
+		[HideInInspector] public List<Corridor> corridors = new List<Corridor>();
 		[SerializeField] protected int corridorWidth = 1;
 		
 		#region UNITY_EDITOR
