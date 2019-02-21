@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6603a91be1e92fc4ba44cb4a754b10b2, type: 3}
+  m_Name: DungeonNodes
+  m_EditorClassIdentifier: 
+  nodeCount: 10
+  maxBranchCount: 3
+  randomConnectEndBranch: 1
+  chanceConnectEndBranch: 0.845
+  nodes:
+  - id: 0
+    nodeConnections: 01000000
+    rectPosition:
+      serializedVersion: 2
+      x: 0
+      y: 180
+      width: 60
+      height: 60
+  - id: 1
+    nodeConnections: 02000000
+    rectPosition:
+      serializedVersion: 2
+      x: 120
+      y: 180
+      width: 60
+      height: 60
+  - id: 2
+    nodeConnections: 03000000
+    rectPosition:
+      serializedVersion: 2
+      x: 240
+      y: 180
+      width: 60
+      height: 60
+  - id: 3
+    nodeConnections: 0500000004000000
+    rectPosition:
+      serializedVersion: 2
+      x: 360
+      y: 180
+      width: 60
+      height: 60
+  - id: 4
+    nodeConnections: 06000000
+    rectPosition:
+      serializedVersion: 2
+      x: 480
+      y: 240
+      width: 60
+      height: 60
+  - id: 5
+    nodeConnections: 0800000007000000
+    rectPosition:
+      serializedVersion: 2
+      x: 480
+      y: 120
+      width: 60
+      height: 60
+  - id: 6
+    nodeConnections: 09000000
+    rectPosition:
+      serializedVersion: 2
+      x: 600
+      y: 240
+      width: 60
+      height: 60
+  - id: 7
+    nodeConnections: 08000000
+    rectPosition:
+      serializedVersion: 2
+      x: 600
+      y: 160
+      width: 60
+      height: 60
+  - id: 8
+    nodeConnections: 
+    rectPosition:
+      serializedVersion: 2
+      x: 600
+      y: 80
+      width: 60
+      height: 60
+  - id: 9
+    nodeConnections: 
+    rectPosition:
+      serializedVersion: 2
+      x: 720
+      y: 240
+      width: 60
+      height: 60

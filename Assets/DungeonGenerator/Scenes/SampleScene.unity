@@ -1,0 +1,2610 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 10
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &719507273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 719507276}
+  - component: {fileID: 719507275}
+  - component: {fileID: 719507277}
+  m_Layer: 0
+  m_Name: BSPxDelaunay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!156049354 &719507275
+Grid:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 719507273}
+  m_Enabled: 1
+  m_CellSize: {x: 1, y: 1, z: 0}
+  m_CellGap: {x: 0, y: 0, z: 0}
+  m_CellLayout: 0
+  m_CellSwizzle: 1
+--- !u!4 &719507276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 719507273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &719507277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 719507273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1638934f63a25464e8cc8930104cd77a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rooms:
+  - id: 0
+    rect:
+      serializedVersion: 2
+      x: 9
+      y: 2
+      width: 14
+      height: 10
+  - id: 0
+    rect:
+      serializedVersion: 2
+      x: 8
+      y: 74
+      width: 15
+      height: 12
+  - id: 1
+    rect:
+      serializedVersion: 2
+      x: 81
+      y: 4
+      width: 20
+      height: 9
+  - id: 2
+    rect:
+      serializedVersion: 2
+      x: 83
+      y: 76
+      width: 18
+      height: 11
+  - id: 3
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 6
+      width: 10
+      height: 19
+  - id: 4
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 79
+      width: 9
+      height: 19
+  - id: 5
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 43
+      width: 20
+      height: 10
+  - id: 6
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 58
+      width: 12
+      height: 12
+  - id: 7
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 54
+      width: 9
+      height: 14
+  - id: 8
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 108
+      width: 15
+      height: 9
+  - id: 9
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 36
+      width: 15
+      height: 9
+  - id: 10
+    rect:
+      serializedVersion: 2
+      x: 6
+      y: 109
+      width: 12
+      height: 9
+  - id: 11
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 2
+      width: 11
+      height: 16
+  - id: 12
+    rect:
+      serializedVersion: 2
+      x: 44
+      y: 105
+      width: 12
+      height: 12
+  - id: 13
+    rect:
+      serializedVersion: 2
+      x: 57
+      y: 32
+      width: 17
+      height: 11
+  - id: 14
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 44
+      width: 10
+      height: 24
+  - id: 15
+    rect:
+      serializedVersion: 2
+      x: 107
+      y: 80
+      width: 7
+      height: 21
+  - id: 16
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 3
+      width: 7
+      height: 23
+  - id: 17
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 76
+      width: 10
+      height: 11
+  - id: 18
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 52
+      width: 11
+      height: 14
+  - id: 19
+    rect:
+      serializedVersion: 2
+      x: 7
+      y: 30
+      width: 14
+      height: 6
+  - id: 20
+    rect:
+      serializedVersion: 2
+      x: 103
+      y: 108
+      width: 12
+      height: 10
+  - id: 21
+    rect:
+      serializedVersion: 2
+      x: 106
+      y: 36
+      width: 12
+      height: 9
+  - id: 22
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 78
+      width: 8
+      height: 18
+  - id: 23
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 30
+      width: 11
+      height: 6
+  - id: 24
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 22
+      width: 20
+      height: 7
+  - id: 25
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 94
+      width: 20
+      height: 7
+  - id: 26
+    rect:
+      serializedVersion: 2
+      x: 2
+      y: 63
+      width: 18
+      height: 6
+  - id: 27
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: 108
+      width: 12
+      height: 8
+  - id: 28
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 8
+      width: 5
+      height: 19
+  - id: 29
+    rect:
+      serializedVersion: 2
+      x: 2
+      y: 94
+      width: 13
+      height: 8
+  - id: 30
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 56
+      width: 7
+      height: 14
+  - id: 31
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 105
+      width: 8
+      height: 12
+  - id: 32
+    rect:
+      serializedVersion: 2
+      x: 2
+      y: 20
+      width: 14
+      height: 5
+  - id: 33
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 93
+      width: 9
+      height: 8
+  corridors:
+  - doorPosition:
+    - {x: 10, y: 25}
+    - {x: 10, y: 30}
+    ways:
+    - serializedVersion: 2
+      x: 10
+      y: 25
+      width: 3
+      height: 5
+  - doorPosition:
+    - {x: 44, y: 58}
+    - {x: 48, y: 58}
+    ways:
+    - serializedVersion: 2
+      x: 44
+      y: 58
+      width: 4
+      height: 3
+  - doorPosition:
+    - {x: 63, y: 9}
+    - {x: 70, y: 9}
+    ways:
+    - serializedVersion: 2
+      x: 63
+      y: 9
+      width: 7
+      height: 3
+  - doorPosition:
+    - {x: 12, y: 69}
+    - {x: 12, y: 74}
+    ways:
+    - serializedVersion: 2
+      x: 12
+      y: 69
+      width: 3
+      height: 5
+  - doorPosition:
+    - {x: 56, y: 109}
+    - {x: 61, y: 109}
+    ways:
+    - serializedVersion: 2
+      x: 56
+      y: 109
+      width: 5
+      height: 3
+  - doorPosition:
+    - {x: 17, y: 36}
+    - {x: 17, y: 43}
+    ways:
+    - serializedVersion: 2
+      x: 17
+      y: 36
+      width: 3
+      height: 7
+  - doorPosition:
+    - {x: 90, y: 29}
+    - {x: 90, y: 36}
+    ways:
+    - serializedVersion: 2
+      x: 90
+      y: 29
+      width: 3
+      height: 7
+  - doorPosition:
+    - {x: 30, y: 101}
+    - {x: 30, y: 108}
+    ways:
+    - serializedVersion: 2
+      x: 30
+      y: 101
+      width: 3
+      height: 7
+  - doorPosition:
+    - {x: 32, y: 87}
+    - {x: 32, y: 93}
+    ways:
+    - serializedVersion: 2
+      x: 32
+      y: 87
+      width: 3
+      height: 6
+  - doorPosition:
+    - {x: 8, y: 102}
+    - {x: 8, y: 109}
+    ways:
+    - serializedVersion: 2
+      x: 8
+      y: 102
+      width: 3
+      height: 7
+  - doorPosition:
+    - {x: 88, y: 101}
+    - {x: 88, y: 108}
+    ways:
+    - serializedVersion: 2
+      x: 88
+      y: 101
+      width: 3
+      height: 7
+  - doorPosition:
+    - {x: 38, y: 83}
+    - {x: 43, y: 83}
+    ways:
+    - serializedVersion: 2
+      x: 38
+      y: 83
+      width: 5
+      height: 3
+  - doorPosition:
+    - {x: 84, y: 87}
+    - {x: 84, y: 94}
+    ways:
+    - serializedVersion: 2
+      x: 84
+      y: 87
+      width: 3
+      height: 7
+  - doorPosition:
+    - {x: 11, y: 12}
+    - {x: 11, y: 20}
+    ways:
+    - serializedVersion: 2
+      x: 11
+      y: 12
+      width: 3
+      height: 8
+  - doorPosition:
+    - {x: 95, y: 13}
+    - {x: 95, y: 22}
+    ways:
+    - serializedVersion: 2
+      x: 95
+      y: 13
+      width: 3
+      height: 9
+  - doorPosition:
+    - {x: 23, y: 78}
+    - {x: 28, y: 78}
+    ways:
+    - serializedVersion: 2
+      x: 23
+      y: 78
+      width: 5
+      height: 3
+  - doorPosition:
+    - {x: 92, y: 70}
+    - {x: 92, y: 76}
+    ways:
+    - serializedVersion: 2
+      x: 92
+      y: 70
+      width: 3
+      height: 6
+  - doorPosition:
+    - {x: 57, y: 61}
+    - {x: 67, y: 61}
+    ways:
+    - serializedVersion: 2
+      x: 57
+      y: 61
+      width: 10
+      height: 3
+  - doorPosition:
+    - {x: 16, y: 53}
+    - {x: 16, y: 63}
+    ways:
+    - serializedVersion: 2
+      x: 16
+      y: 53
+      width: 3
+      height: 10
+  - doorPosition:
+    - {x: 62, y: 92}
+    - {x: 52, y: 92}
+    ways:
+    - serializedVersion: 2
+      x: 62
+      y: 92
+      width: -10
+      height: 3
+  - doorPosition:
+    - {x: 110, y: 45}
+    - {x: 110, y: 52}
+    ways:
+    - serializedVersion: 2
+      x: 110
+      y: 45
+      width: 3
+      height: 7
+  - doorPosition:
+    - {x: 44, y: 112}
+    - {x: 37, y: 112}
+    ways:
+    - serializedVersion: 2
+      x: 44
+      y: 112
+      width: -7
+      height: 3
+  - doorPosition:
+    - {x: 25, y: 111}
+    - {x: 18, y: 111}
+    ways:
+    - serializedVersion: 2
+      x: 25
+      y: 111
+      width: -7
+      height: 3
+  - doorPosition:
+    - {x: 103, y: 61}
+    - {x: 96, y: 61}
+    ways:
+    - serializedVersion: 2
+      x: 103
+      y: 61
+      width: -7
+      height: 3
+  - doorPosition:
+    - {x: 74, y: 63}
+    - {x: 84, y: 63}
+    ways:
+    - serializedVersion: 2
+      x: 74
+      y: 63
+      width: 10
+      height: 3
+  - doorPosition:
+    - {x: 69, y: 111}
+    - {x: 77, y: 111}
+    ways:
+    - serializedVersion: 2
+      x: 69
+      y: 111
+      width: 8
+      height: 3
+  - doorPosition:
+    - {x: 101, y: 81}
+    - {x: 107, y: 81}
+    ways:
+    - serializedVersion: 2
+      x: 101
+      y: 81
+      width: 6
+      height: 3
+  - doorPosition:
+    - {x: 81, y: 9}
+    - {x: 75, y: 9}
+    ways:
+    - serializedVersion: 2
+      x: 81
+      y: 9
+      width: -6
+      height: 3
+  - doorPosition:
+    - {x: 70, y: 13}
+    - {x: 65, y: 32}
+    ways:
+    - serializedVersion: 2
+      x: 70
+      y: 13
+      width: -5
+      height: 3
+    - serializedVersion: 2
+      x: 65
+      y: 32
+      width: 3
+      height: -16
+  - doorPosition:
+    - {x: 43, y: 13}
+    - {x: 53, y: 13}
+    ways:
+    - serializedVersion: 2
+      x: 43
+      y: 13
+      width: 10
+      height: 3
+  - doorPosition:
+    - {x: 21, y: 31}
+    - {x: 30, y: 31}
+    ways:
+    - serializedVersion: 2
+      x: 21
+      y: 31
+      width: 9
+      height: 3
+  - doorPosition:
+    - {x: 23, y: 4}
+    - {x: 32, y: 4}
+    ways:
+    - serializedVersion: 2
+      x: 23
+      y: 4
+      width: 9
+      height: 3
+  - doorPosition:
+    - {x: 108, y: 101}
+    - {x: 108, y: 108}
+    ways:
+    - serializedVersion: 2
+      x: 108
+      y: 101
+      width: 3
+      height: 7
+  - doorPosition:
+    - {x: 101, y: 5}
+    - {x: 110, y: 5}
+    ways:
+    - serializedVersion: 2
+      x: 101
+      y: 5
+      width: 9
+      height: 3
+  - doorPosition:
+    - {x: 43, y: 94}
+    - {x: 38, y: 94}
+    ways:
+    - serializedVersion: 2
+      x: 43
+      y: 94
+      width: -5
+      height: 3
+  - doorPosition:
+    - {x: 11, y: 86}
+    - {x: 11, y: 94}
+    ways:
+    - serializedVersion: 2
+      x: 11
+      y: 86
+      width: 3
+      height: 8
+  - doorPosition:
+    - {x: 75, y: 23}
+    - {x: 82, y: 23}
+    ways:
+    - serializedVersion: 2
+      x: 75
+      y: 23
+      width: 7
+      height: 3
+  - doorPosition:
+    - {x: -1, y: -1}
+    - {x: -1, y: -1}
+    ways: []
+  - doorPosition:
+    - {x: 107, y: 97}
+    - {x: 100, y: 97}
+    ways:
+    - serializedVersion: 2
+      x: 107
+      y: 97
+      width: -7
+      height: 3
+  - doorPosition:
+    - {x: 97, y: 38}
+    - {x: 106, y: 38}
+    ways:
+    - serializedVersion: 2
+      x: 97
+      y: 38
+      width: 9
+      height: 3
+  - doorPosition:
+    - {x: 47, y: 98}
+    - {x: 47, y: 105}
+    ways:
+    - serializedVersion: 2
+      x: 47
+      y: 98
+      width: 3
+      height: 7
+  - doorPosition:
+    - {x: 37, y: 18}
+    - {x: 37, y: 30}
+    ways:
+    - serializedVersion: 2
+      x: 37
+      y: 18
+      width: 3
+      height: 12
+  - doorPosition:
+    - {x: 58, y: 25}
+    - {x: 58, y: 32}
+    ways:
+    - serializedVersion: 2
+      x: 58
+      y: 25
+      width: 3
+      height: 7
+  - doorPosition:
+    - {x: 35, y: 36}
+    - {x: 35, y: 44}
+    ways:
+    - serializedVersion: 2
+      x: 35
+      y: 36
+      width: 3
+      height: 8
+  - doorPosition:
+    - {x: 92, y: 45}
+    - {x: 92, y: 58}
+    ways:
+    - serializedVersion: 2
+      x: 92
+      y: 45
+      width: 3
+      height: 13
+  - doorPosition:
+    - {x: 63, y: 96}
+    - {x: 63, y: 105}
+    ways:
+    - serializedVersion: 2
+      x: 63
+      y: 96
+      width: 3
+      height: 9
+  - doorPosition:
+    - {x: 110, y: 18}
+    - {x: 92, y: 22}
+    ways:
+    - serializedVersion: 2
+      x: 110
+      y: 18
+      width: -18
+      height: 3
+    - serializedVersion: 2
+      x: 92
+      y: 22
+      width: 3
+      height: -1
+  - doorPosition:
+    - {x: 74, y: 38}
+    - {x: 82, y: 38}
+    ways:
+    - serializedVersion: 2
+      x: 74
+      y: 38
+      width: 8
+      height: 3
+  corridorWidth: 3
+  drawGizmos: 1
+  roomCount: 25
+  roomSize:
+    min: 6
+    max: 12
+  spreadDistance:
+    min: 1
+    max: 10
+  roomPossibleConnections:
+  - r1:
+      id: 32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 20
+        width: 14
+        height: 5
+    r2:
+      id: 19
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 30
+        width: 14
+        height: 6
+    corridorDir: 3
+  - r1:
+      id: 14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 44
+        width: 10
+        height: 24
+    r2:
+      id: 7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 54
+        width: 9
+        height: 14
+    corridorDir: 3
+  - r1:
+      id: 3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 6
+        width: 10
+        height: 19
+    r2:
+      id: 28
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 8
+        width: 5
+        height: 19
+    corridorDir: 3
+  - r1:
+      id: 26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 63
+        width: 18
+        height: 6
+    r2:
+      id: 0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 74
+        width: 15
+        height: 12
+    corridorDir: 3
+  - r1:
+      id: 12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 105
+        width: 12
+        height: 12
+    r2:
+      id: 31
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 105
+        width: 8
+        height: 12
+    corridorDir: 3
+  - r1:
+      id: 19
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 30
+        width: 14
+        height: 6
+    r2:
+      id: 5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 43
+        width: 20
+        height: 10
+    corridorDir: 3
+  - r1:
+      id: 24
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 22
+        width: 20
+        height: 7
+    r2:
+      id: 9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 36
+        width: 15
+        height: 9
+    corridorDir: 3
+  - r1:
+      id: 33
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 93
+        width: 9
+        height: 8
+    r2:
+      id: 27
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 108
+        width: 12
+        height: 8
+    corridorDir: 3
+  - r1:
+      id: 17
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 76
+        width: 10
+        height: 11
+    r2:
+      id: 33
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 93
+        width: 9
+        height: 8
+    corridorDir: 3
+  - r1:
+      id: 29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 94
+        width: 13
+        height: 8
+    r2:
+      id: 10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 109
+        width: 12
+        height: 9
+    corridorDir: 3
+  - r1:
+      id: 25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 94
+        width: 20
+        height: 7
+    r2:
+      id: 8
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 108
+        width: 15
+        height: 9
+    corridorDir: 3
+  - r1:
+      id: 17
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 76
+        width: 10
+        height: 11
+    r2:
+      id: 4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 79
+        width: 9
+        height: 19
+    corridorDir: 3
+  - r1:
+      id: 2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 76
+        width: 18
+        height: 11
+    r2:
+      id: 25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 94
+        width: 20
+        height: 7
+    corridorDir: 3
+  - r1:
+      id: 0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2
+        width: 14
+        height: 10
+    r2:
+      id: 32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 20
+        width: 14
+        height: 5
+    corridorDir: 3
+  - r1:
+      id: 1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 4
+        width: 20
+        height: 9
+    r2:
+      id: 24
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 22
+        width: 20
+        height: 7
+    corridorDir: 3
+  - r1:
+      id: 0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 74
+        width: 15
+        height: 12
+    r2:
+      id: 17
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 76
+        width: 10
+        height: 11
+    corridorDir: 3
+  - r1:
+      id: 6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 58
+        width: 12
+        height: 12
+    r2:
+      id: 2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 76
+        width: 18
+        height: 11
+    corridorDir: 3
+  - r1:
+      id: 7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 54
+        width: 9
+        height: 14
+    r2:
+      id: 30
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 56
+        width: 7
+        height: 14
+    corridorDir: 3
+  - r1:
+      id: 5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 43
+        width: 20
+        height: 10
+    r2:
+      id: 26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 63
+        width: 18
+        height: 6
+    corridorDir: 3
+  - r1:
+      id: 22
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 78
+        width: 8
+        height: 18
+    r2:
+      id: 4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 79
+        width: 9
+        height: 19
+    corridorDir: 3
+  - r1:
+      id: 21
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 36
+        width: 12
+        height: 9
+    r2:
+      id: 18
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 52
+        width: 11
+        height: 14
+    corridorDir: 3
+  - r1:
+      id: 12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 105
+        width: 12
+        height: 12
+    r2:
+      id: 27
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 108
+        width: 12
+        height: 8
+    corridorDir: 3
+  - r1:
+      id: 27
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 108
+        width: 12
+        height: 8
+    r2:
+      id: 10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 109
+        width: 12
+        height: 9
+    corridorDir: 3
+  - r1:
+      id: 18
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 52
+        width: 11
+        height: 14
+    r2:
+      id: 6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 58
+        width: 12
+        height: 12
+    corridorDir: 3
+  - r1:
+      id: 30
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 56
+        width: 7
+        height: 14
+    r2:
+      id: 6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 58
+        width: 12
+        height: 12
+    corridorDir: 3
+  - r1:
+      id: 31
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 105
+        width: 8
+        height: 12
+    r2:
+      id: 8
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 108
+        width: 15
+        height: 9
+    corridorDir: 3
+  - r1:
+      id: 2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 76
+        width: 18
+        height: 11
+    r2:
+      id: 15
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 80
+        width: 7
+        height: 21
+    corridorDir: 3
+  - r1:
+      id: 1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 4
+        width: 20
+        height: 9
+    r2:
+      id: 28
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 8
+        width: 5
+        height: 19
+    corridorDir: 3
+  - r1:
+      id: 28
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 8
+        width: 5
+        height: 19
+    r2:
+      id: 13
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 32
+        width: 17
+        height: 11
+    corridorDir: 3
+  - r1:
+      id: 11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2
+        width: 11
+        height: 16
+    r2:
+      id: 3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 6
+        width: 10
+        height: 19
+    corridorDir: 3
+  - r1:
+      id: 19
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 30
+        width: 14
+        height: 6
+    r2:
+      id: 23
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 30
+        width: 11
+        height: 6
+    corridorDir: 3
+  - r1:
+      id: 0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2
+        width: 14
+        height: 10
+    r2:
+      id: 11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2
+        width: 11
+        height: 16
+    corridorDir: 3
+  - r1:
+      id: 15
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 80
+        width: 7
+        height: 21
+    r2:
+      id: 20
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 108
+        width: 12
+        height: 10
+    corridorDir: 3
+  - r1:
+      id: 1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 4
+        width: 20
+        height: 9
+    r2:
+      id: 16
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 3
+        width: 7
+        height: 23
+    corridorDir: 3
+  - r1:
+      id: 4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 79
+        width: 9
+        height: 19
+    r2:
+      id: 33
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 93
+        width: 9
+        height: 8
+    corridorDir: 3
+  - r1:
+      id: 0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 74
+        width: 15
+        height: 12
+    r2:
+      id: 29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 94
+        width: 13
+        height: 8
+    corridorDir: 3
+  - r1:
+      id: 28
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 8
+        width: 5
+        height: 19
+    r2:
+      id: 24
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 22
+        width: 20
+        height: 7
+    corridorDir: 3
+  - r1:
+      id: 33
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 93
+        width: 9
+        height: 8
+    r2:
+      id: 12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 105
+        width: 12
+        height: 12
+    corridorDir: 3
+  - r1:
+      id: 15
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 80
+        width: 7
+        height: 21
+    r2:
+      id: 25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 94
+        width: 20
+        height: 7
+    corridorDir: 3
+  - r1:
+      id: 9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 36
+        width: 15
+        height: 9
+    r2:
+      id: 21
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 36
+        width: 12
+        height: 9
+    corridorDir: 3
+  - r1:
+      id: 4
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 79
+        width: 9
+        height: 19
+    r2:
+      id: 12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 105
+        width: 12
+        height: 12
+    corridorDir: 3
+  - r1:
+      id: 11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2
+        width: 11
+        height: 16
+    r2:
+      id: 23
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 30
+        width: 11
+        height: 6
+    corridorDir: 3
+  - r1:
+      id: 3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 6
+        width: 10
+        height: 19
+    r2:
+      id: 13
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 32
+        width: 17
+        height: 11
+    corridorDir: 3
+  - r1:
+      id: 23
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 30
+        width: 11
+        height: 6
+    r2:
+      id: 14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 44
+        width: 10
+        height: 24
+    corridorDir: 3
+  - r1:
+      id: 9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 36
+        width: 15
+        height: 9
+    r2:
+      id: 6
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 58
+        width: 12
+        height: 12
+    corridorDir: 3
+  - r1:
+      id: 22
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 78
+        width: 8
+        height: 18
+    r2:
+      id: 31
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 105
+        width: 8
+        height: 12
+    corridorDir: 3
+  - r1:
+      id: 16
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 3
+        width: 7
+        height: 23
+    r2:
+      id: 24
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 22
+        width: 20
+        height: 7
+    corridorDir: 3
+  - r1:
+      id: 13
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 32
+        width: 17
+        height: 11
+    r2:
+      id: 9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 36
+        width: 15
+        height: 9
+    corridorDir: 3
+  drawDoorFinder: 0
+  drawPossibleCorridor: 0
+  drawPossibleLCorridor: 0
+  boardSize: {x: 120, y: 120}
+  partitionCount: 35
+  sliceRange:
+    min: 0.3
+    max: 0.5
+  marginRoom: 2
+  roomScaleSize:
+    min: 0.6
+    max: 0.85
+  keepConnection: 0.238
+--- !u!1 &782697729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 782697731}
+  - component: {fileID: 782697730}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &782697730
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 782697729}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &782697731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 782697729}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &984842738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 984842741}
+  - component: {fileID: 984842740}
+  - component: {fileID: 984842739}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &984842739
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 984842738}
+  m_Enabled: 1
+--- !u!20 &984842740
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 984842738}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &984842741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 984842738}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1031965274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1031965276}
+  - component: {fileID: 1031965275}
+  - component: {fileID: 1031965277}
+  m_Layer: 0
+  m_Name: SpreadxDelaunay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1031965275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1031965274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e92ad669a53493a4899352b067ca9f6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rooms:
+  - id: 1
+    rect:
+      serializedVersion: 2
+      x: -16
+      y: -10
+      width: 34
+      height: 21
+  - id: 14
+    rect:
+      serializedVersion: 2
+      x: 18
+      y: -11
+      width: 27
+      height: 15
+  - id: 29
+    rect:
+      serializedVersion: 2
+      x: -34
+      y: -17
+      width: 18
+      height: 27
+  - id: 22
+    rect:
+      serializedVersion: 2
+      x: -12
+      y: 11
+      width: 14
+      height: 16
+  - id: 4
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: -10
+      width: 23
+      height: 12
+  - id: 7
+    rect:
+      serializedVersion: 2
+      x: -56
+      y: -24
+      width: 22
+      height: 35
+  - id: 0
+    rect:
+      serializedVersion: 2
+      x: -81
+      y: -4
+      width: 25
+      height: 22
+  - id: 17
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: -5
+      width: 34
+      height: 23
+  - id: 8
+    rect:
+      serializedVersion: 2
+      x: -76
+      y: 18
+      width: 20
+      height: 21
+  - id: 28
+    rect:
+      serializedVersion: 2
+      x: -68
+      y: 39
+      width: 12
+      height: 26
+  - id: 27
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 27
+      width: 19
+      height: 21
+  - id: 12
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: -14
+      width: 31
+      height: 12
+  - id: 13
+    rect:
+      serializedVersion: 2
+      x: -97
+      y: -26
+      width: 16
+      height: 27
+  - id: 20
+    rect:
+      serializedVersion: 2
+      x: -100
+      y: 10
+      width: 19
+      height: 19
+  - id: 19
+    rect:
+      serializedVersion: 2
+      x: -16
+      y: -25
+      width: 20
+      height: 15
+  - id: 21
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 18
+      width: 21
+      height: 25
+  - id: 26
+    rect:
+      serializedVersion: 2
+      x: -124
+      y: 4
+      width: 24
+      height: 24
+  - id: 11
+    rect:
+      serializedVersion: 2
+      x: 18
+      y: 5
+      width: 14
+      height: 16
+  - id: 3
+    rect:
+      serializedVersion: 2
+      x: -5
+      y: -37
+      width: 17
+      height: 12
+  - id: 25
+    rect:
+      serializedVersion: 2
+      x: -16
+      y: -53
+      width: 15
+      height: 16
+  - id: 2
+    rect:
+      serializedVersion: 2
+      x: -116
+      y: 29
+      width: 35
+      height: 25
+  - id: 24
+    rect:
+      serializedVersion: 2
+      x: -90
+      y: -61
+      width: 34
+      height: 35
+  - id: 15
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: -23
+      width: 31
+      height: 13
+  - id: 16
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: -2
+      width: 15
+      height: 12
+  - id: 23
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: -57
+      width: 30
+      height: 20
+  - id: 6
+    rect:
+      serializedVersion: 2
+      x: -107
+      y: -55
+      width: 17
+      height: 29
+  - id: 9
+    rect:
+      serializedVersion: 2
+      x: 14
+      y: 48
+      width: 27
+      height: 18
+  - id: 10
+    rect:
+      serializedVersion: 2
+      x: -10
+      y: -70
+      width: 27
+      height: 13
+  - id: 5
+    rect:
+      serializedVersion: 2
+      x: -38
+      y: 15
+      width: 25
+      height: 27
+  - id: 18
+    rect:
+      serializedVersion: 2
+      x: -116
+      y: -26
+      width: 19
+      height: 22
+  corridors:
+  - doorPosition:
+    - {x: -34, y: -1}
+    - {x: -34, y: -1}
+    ways: []
+  - doorPosition:
+    - {x: 83, y: 18}
+    - {x: 83, y: 18}
+    ways: []
+  - doorPosition:
+    - {x: -90, y: -44}
+    - {x: -90, y: -44}
+    ways: []
+  - doorPosition:
+    - {x: -16, y: -8}
+    - {x: -16, y: -8}
+    ways: []
+  - doorPosition:
+    - {x: -56, y: -1}
+    - {x: -56, y: -1}
+    ways: []
+  - doorPosition:
+    - {x: -114, y: 28}
+    - {x: -114, y: 29}
+    ways:
+    - serializedVersion: 2
+      x: -114
+      y: 28
+      width: 5
+      height: 1
+  - doorPosition:
+    - {x: -27, y: 10}
+    - {x: -27, y: 15}
+    ways:
+    - serializedVersion: 2
+      x: -27
+      y: 10
+      width: 5
+      height: 5
+  - doorPosition:
+    - {x: 70, y: -10}
+    - {x: 70, y: -5}
+    ways:
+    - serializedVersion: 2
+      x: 70
+      y: -10
+      width: 5
+      height: 5
+  - doorPosition:
+    - {x: 102, y: 0}
+    - {x: 115, y: -2}
+    ways:
+    - serializedVersion: 2
+      x: 102
+      y: 0
+      width: 18
+      height: 5
+    - serializedVersion: 2
+      x: 115
+      y: -2
+      width: 5
+      height: 2
+  - doorPosition:
+    - {x: -81, y: 7}
+    - {x: -100, y: 7}
+    ways:
+    - serializedVersion: 2
+      x: -81
+      y: 7
+      width: -19
+      height: 5
+  - doorPosition:
+    - {x: -56, y: -15}
+    - {x: -88, y: -26}
+    ways:
+    - serializedVersion: 2
+      x: -56
+      y: -15
+      width: -32
+      height: 5
+    - serializedVersion: 2
+      x: -88
+      y: -26
+      width: 5
+      height: 11
+  - doorPosition:
+    - {x: 5, y: -37}
+    - {x: 5, y: -10}
+    ways:
+    - serializedVersion: 2
+      x: 5
+      y: -37
+      width: 5
+      height: 27
+  - doorPosition:
+    - {x: 45, y: -20}
+    - {x: 5, y: -37}
+    ways:
+    - serializedVersion: 2
+      x: 45
+      y: -20
+      width: -40
+      height: 5
+    - serializedVersion: 2
+      x: 5
+      y: -37
+      width: 5
+      height: 17
+  - doorPosition:
+    - {x: 68, y: 36}
+    - {x: 19, y: 48}
+    ways:
+    - serializedVersion: 2
+      x: 68
+      y: 36
+      width: -49
+      height: 5
+    - serializedVersion: 2
+      x: 19
+      y: 48
+      width: 5
+      height: -7
+  - doorPosition:
+    - {x: -13, y: 23}
+    - {x: 4, y: 11}
+    ways:
+    - serializedVersion: 2
+      x: -13
+      y: 23
+      width: 22
+      height: 5
+    - serializedVersion: 2
+      x: 4
+      y: 11
+      width: 5
+      height: 12
+  corridorWidth: 5
+  drawGizmos: 0
+  roomCount: 30
+  roomSize:
+    min: 12
+    max: 35
+  spreadDistance:
+    min: 1
+    max: 50
+  roomPossibleConnections:
+  - r1:
+      id: 7
+      rect:
+        serializedVersion: 2
+        x: -56
+        y: -24
+        width: 22
+        height: 35
+    r2:
+      id: 29
+      rect:
+        serializedVersion: 2
+        x: -34
+        y: -17
+        width: 18
+        height: 27
+    corridorDir: 3
+  - r1:
+      id: 17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: -5
+        width: 34
+        height: 23
+    r2:
+      id: 21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 18
+        width: 21
+        height: 25
+    corridorDir: 3
+  - r1:
+      id: 24
+      rect:
+        serializedVersion: 2
+        x: -90
+        y: -61
+        width: 34
+        height: 35
+    r2:
+      id: 6
+      rect:
+        serializedVersion: 2
+        x: -107
+        y: -55
+        width: 17
+        height: 29
+    corridorDir: 3
+  - r1:
+      id: 29
+      rect:
+        serializedVersion: 2
+        x: -34
+        y: -17
+        width: 18
+        height: 27
+    r2:
+      id: 1
+      rect:
+        serializedVersion: 2
+        x: -16
+        y: -10
+        width: 34
+        height: 21
+    corridorDir: 3
+  - r1:
+      id: 7
+      rect:
+        serializedVersion: 2
+        x: -56
+        y: -24
+        width: 22
+        height: 35
+    r2:
+      id: 0
+      rect:
+        serializedVersion: 2
+        x: -81
+        y: -4
+        width: 25
+        height: 22
+    corridorDir: 3
+  - r1:
+      id: 26
+      rect:
+        serializedVersion: 2
+        x: -124
+        y: 4
+        width: 24
+        height: 24
+    r2:
+      id: 2
+      rect:
+        serializedVersion: 2
+        x: -116
+        y: 29
+        width: 35
+        height: 25
+    corridorDir: 3
+  - r1:
+      id: 29
+      rect:
+        serializedVersion: 2
+        x: -34
+        y: -17
+        width: 18
+        height: 27
+    r2:
+      id: 5
+      rect:
+        serializedVersion: 2
+        x: -38
+        y: 15
+        width: 25
+        height: 27
+    corridorDir: 3
+  - r1:
+      id: 15
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: -23
+        width: 31
+        height: 13
+    r2:
+      id: 17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: -5
+        width: 34
+        height: 23
+    corridorDir: 3
+  - r1:
+      id: 12
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: -14
+        width: 31
+        height: 12
+    r2:
+      id: 17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: -5
+        width: 34
+        height: 23
+    corridorDir: 3
+  - r1:
+      id: 0
+      rect:
+        serializedVersion: 2
+        x: -81
+        y: -4
+        width: 25
+        height: 22
+    r2:
+      id: 26
+      rect:
+        serializedVersion: 2
+        x: -124
+        y: 4
+        width: 24
+        height: 24
+    corridorDir: 3
+  - r1:
+      id: 24
+      rect:
+        serializedVersion: 2
+        x: -90
+        y: -61
+        width: 34
+        height: 35
+    r2:
+      id: 7
+      rect:
+        serializedVersion: 2
+        x: -56
+        y: -24
+        width: 22
+        height: 35
+    corridorDir: 3
+  - r1:
+      id: 23
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: -57
+        width: 30
+        height: 20
+    r2:
+      id: 1
+      rect:
+        serializedVersion: 2
+        x: -16
+        y: -10
+        width: 34
+        height: 21
+    corridorDir: 3
+  - r1:
+      id: 23
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: -57
+        width: 30
+        height: 20
+    r2:
+      id: 15
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: -23
+        width: 31
+        height: 13
+    corridorDir: 3
+  - r1:
+      id: 21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 18
+        width: 21
+        height: 25
+    r2:
+      id: 9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 48
+        width: 27
+        height: 18
+    corridorDir: 3
+  - r1:
+      id: 1
+      rect:
+        serializedVersion: 2
+        x: -16
+        y: -10
+        width: 34
+        height: 21
+    r2:
+      id: 5
+      rect:
+        serializedVersion: 2
+        x: -38
+        y: 15
+        width: 25
+        height: 27
+    corridorDir: 3
+  drawDoorFinder: 0
+  drawPossibleCorridor: 0
+  drawPossibleLCorridor: 0
+--- !u!4 &1031965276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1031965274}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1031965277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1031965274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb211c4b97be564b8964a64cb3172a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainRoomSize: 0.5
+  keepConnection: 0.052
+  mainRooms:
+  - id: 24
+    rect:
+      serializedVersion: 2
+      x: -90
+      y: -61
+      width: 34
+      height: 35
+  - id: 2
+    rect:
+      serializedVersion: 2
+      x: -116
+      y: 29
+      width: 35
+      height: 25
+  - id: 7
+    rect:
+      serializedVersion: 2
+      x: -56
+      y: -24
+      width: 22
+      height: 35
+  - id: 17
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: -5
+      width: 34
+      height: 23
+  - id: 1
+    rect:
+      serializedVersion: 2
+      x: -16
+      y: -10
+      width: 34
+      height: 21
+  - id: 5
+    rect:
+      serializedVersion: 2
+      x: -38
+      y: 15
+      width: 25
+      height: 27
+  - id: 23
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: -57
+      width: 30
+      height: 20
+  - id: 26
+    rect:
+      serializedVersion: 2
+      x: -124
+      y: 4
+      width: 24
+      height: 24
+  - id: 6
+    rect:
+      serializedVersion: 2
+      x: -107
+      y: -55
+      width: 17
+      height: 29
+  - id: 15
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: -23
+      width: 31
+      height: 13
+  - id: 0
+    rect:
+      serializedVersion: 2
+      x: -81
+      y: -4
+      width: 25
+      height: 22
+  - id: 12
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: -14
+      width: 31
+      height: 12
+  - id: 21
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 18
+      width: 21
+      height: 25
+  - id: 9
+    rect:
+      serializedVersion: 2
+      x: 14
+      y: 48
+      width: 27
+      height: 18
+  - id: 29
+    rect:
+      serializedVersion: 2
+      x: -34
+      y: -17
+      width: 18
+      height: 27
+  drawTriangulation: 0
+  drawSpanningTree: 1

@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70ea929cbbf1034787233db738824c2, type: 3}
+  m_Name: TilemapNodes
+  m_EditorClassIdentifier: 
+  nodeCount: 10
+  maxBranchCount: 3
+  randomConnectEndBranch: 1
+  chanceConnectEndBranch: 0.869
+  nodes:
+  - id: 0
+    parent: 0
+    nodeConnections: 0200000001000000
+    rectPosition:
+      serializedVersion: 2
+      x: 0
+      y: 220
+      width: 60
+      height: 60
+  - id: 1
+    parent: 0
+    nodeConnections: 0400000003000000
+    rectPosition:
+      serializedVersion: 2
+      x: 120
+      y: 320
+      width: 60
+      height: 60
+  - id: 2
+    parent: 0
+    nodeConnections: 0600000005000000
+    rectPosition:
+      serializedVersion: 2
+      x: 120
+      y: 120
+      width: 60
+      height: 60
+  - id: 3
+    parent: 2
+    nodeConnections: 090000000800000007000000
+    rectPosition:
+      serializedVersion: 2
+      x: 240
+      y: 400
+      width: 60
+      height: 60
+  - id: 4
+    parent: 2
+    nodeConnections: 05000000
+    rectPosition:
+      serializedVersion: 2
+      x: 240
+      y: 240
+      width: 60
+      height: 60
+  - id: 5
+    parent: 4
+    nodeConnections: 
+    rectPosition:
+      serializedVersion: 2
+      x: 240
+      y: 160
+      width: 60
+      height: 60
+  - id: 6
+    parent: 4
+    nodeConnections: 07000000
+    rectPosition:
+      serializedVersion: 2
+      x: 240
+      y: 80
+      width: 60
+      height: 60
+  - id: 7
+    parent: 6
+    nodeConnections: 
+    rectPosition:
+      serializedVersion: 2
+      x: 360
+      y: 480
+      width: 60
+      height: 60
+  - id: 8
+    parent: 6
+    nodeConnections: 09000000
+    rectPosition:
+      serializedVersion: 2
+      x: 360
+      y: 400
+      width: 60
+      height: 60
+  - id: 9
+    parent: 6
+    nodeConnections: 
+    rectPosition:
+      serializedVersion: 2
+      x: 360
+      y: 320
+      width: 60
+      height: 60
+  rooms:
+  - {fileID: 8195094281449198356, guid: 396daedc3a63f504bb095d2ae0fbeb65, type: 2}
+  - {fileID: 8195094280640835416, guid: 9c01816b132b834428911f90efd35140, type: 2}
+  roomsIndexNodes: 01000000000000000100000000000000010000000100000000000000000000000100000001000000
