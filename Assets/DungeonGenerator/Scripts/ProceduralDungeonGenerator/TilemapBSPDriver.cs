@@ -44,24 +44,24 @@ namespace DI.DungeonGenerator
 					_x++;
 				}
 			}
-			foreach(Corridor c in bspdungeon.corridors)
-			{
-				foreach(Rect r in c.ways)
-				{
-					int _x = 0;
-					while (_x < Mathf.Abs(r.width))
-					{
-						int _y = 0;
-						while (_y < Mathf.Abs(r.height))
-						{
-							Vector3Int v = new Vector3Int((int)(r.x + _x * Mathf.Sign(r.width) + (Mathf.Sign(r.width) == -1 ? (-1) : 0)), (int)(r.y + _y * Mathf.Sign(r.height) + (Mathf.Sign(r.height) == -1 ? (-1) : 0)), 0);
-							tilemap.SetTile(v, tile);
-							_y++;
-						}
-						_x++;
-					}
-				}
-			}
+			//foreach(Corridor c in bspdungeon.corridors)
+			//{
+			//	foreach(Rect r in c.ways)
+			//	{
+			//		int _x = 0;
+			//		while (_x < Mathf.Abs(r.width))
+			//		{
+			//			int _y = 0;
+			//			while (_y < Mathf.Abs(r.height))
+			//			{
+			//				Vector3Int v = new Vector3Int((int)(r.x + _x * Mathf.Sign(r.width) + (Mathf.Sign(r.width) == -1 ? (-1) : 0)), (int)(r.y + _y * Mathf.Sign(r.height) + (Mathf.Sign(r.height) == -1 ? (-1) : 0)), 0);
+			//				tilemap.SetTile(v, tile);
+			//				_y++;
+			//			}
+			//			_x++;
+			//		}
+			//	}
+			//}
 		}
 
 		public void RemoveTiles()

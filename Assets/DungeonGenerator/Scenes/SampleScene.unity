@@ -169,689 +169,386 @@ MonoBehaviour:
   - id: 0
     rect:
       serializedVersion: 2
-      x: 9
-      y: 2
-      width: 14
-      height: 10
+      x: 4
+      y: 9
+      width: 28
+      height: 15
   - id: 0
     rect:
       serializedVersion: 2
-      x: 8
-      y: 74
-      width: 15
+      x: 4
+      y: 85
+      width: 19
       height: 12
   - id: 1
     rect:
       serializedVersion: 2
-      x: 81
-      y: 4
-      width: 20
-      height: 9
+      x: 71
+      y: 6
+      width: 19
+      height: 19
   - id: 2
     rect:
       serializedVersion: 2
-      x: 83
-      y: 76
-      width: 18
-      height: 11
+      x: 80
+      y: 78
+      width: 21
+      height: 14
   - id: 3
     rect:
       serializedVersion: 2
-      x: 53
-      y: 6
-      width: 10
+      x: 8
+      y: 45
+      width: 13
       height: 19
   - id: 4
     rect:
       serializedVersion: 2
-      x: 43
-      y: 79
-      width: 9
-      height: 19
+      x: 75
+      y: 58
+      width: 19
+      height: 15
   - id: 5
     rect:
       serializedVersion: 2
-      x: 4
-      y: 43
-      width: 20
-      height: 10
+      x: 52
+      y: 80
+      width: 17
+      height: 16
   - id: 6
     rect:
       serializedVersion: 2
-      x: 84
-      y: 58
-      width: 12
-      height: 12
+      x: 40
+      y: 2
+      width: 19
+      height: 32
   - id: 7
     rect:
       serializedVersion: 2
-      x: 48
-      y: 54
-      width: 9
-      height: 14
+      x: 102
+      y: 5
+      width: 13
+      height: 19
   - id: 8
     rect:
       serializedVersion: 2
-      x: 77
-      y: 108
-      width: 15
-      height: 9
+      x: 45
+      y: 51
+      width: 17
+      height: 19
   - id: 9
     rect:
       serializedVersion: 2
-      x: 82
-      y: 36
-      width: 15
-      height: 9
+      x: 110
+      y: 78
+      width: 8
+      height: 31
   - id: 10
     rect:
       serializedVersion: 2
-      x: 6
-      y: 109
-      width: 12
-      height: 9
+      x: 34
+      y: 88
+      width: 10
+      height: 28
   - id: 11
     rect:
       serializedVersion: 2
-      x: 32
-      y: 2
-      width: 11
-      height: 16
+      x: 70
+      y: 32
+      width: 20
+      height: 14
   - id: 12
     rect:
       serializedVersion: 2
-      x: 44
-      y: 105
-      width: 12
-      height: 12
+      x: 101
+      y: 62
+      width: 14
+      height: 11
   - id: 13
     rect:
       serializedVersion: 2
-      x: 57
-      y: 32
-      width: 17
-      height: 11
+      x: 103
+      y: 34
+      width: 14
+      height: 15
   - id: 14
     rect:
       serializedVersion: 2
-      x: 34
-      y: 44
-      width: 10
-      height: 24
+      x: 6
+      y: 32
+      width: 27
+      height: 7
   - id: 15
     rect:
       serializedVersion: 2
-      x: 107
-      y: 80
-      width: 7
-      height: 21
+      x: 82
+      y: 103
+      width: 18
+      height: 13
   - id: 16
     rect:
       serializedVersion: 2
-      x: 110
-      y: 3
-      width: 7
-      height: 23
+      x: 5
+      y: 106
+      width: 16
+      height: 10
   - id: 17
     rect:
       serializedVersion: 2
-      x: 28
-      y: 76
-      width: 10
-      height: 11
+      x: 26
+      y: 48
+      width: 8
+      height: 21
   - id: 18
     rect:
       serializedVersion: 2
-      x: 103
-      y: 52
-      width: 11
-      height: 14
-  - id: 19
-    rect:
-      serializedVersion: 2
-      x: 7
-      y: 30
-      width: 14
-      height: 6
-  - id: 20
-    rect:
-      serializedVersion: 2
-      x: 103
+      x: 55
       y: 108
-      width: 12
-      height: 10
-  - id: 21
-    rect:
-      serializedVersion: 2
-      x: 106
-      y: 36
-      width: 12
-      height: 9
-  - id: 22
-    rect:
-      serializedVersion: 2
-      x: 62
-      y: 78
-      width: 8
-      height: 18
-  - id: 23
-    rect:
-      serializedVersion: 2
-      x: 30
-      y: 30
-      width: 11
-      height: 6
-  - id: 24
-    rect:
-      serializedVersion: 2
-      x: 82
-      y: 22
-      width: 20
-      height: 7
-  - id: 25
-    rect:
-      serializedVersion: 2
-      x: 80
-      y: 94
-      width: 20
-      height: 7
-  - id: 26
-    rect:
-      serializedVersion: 2
-      x: 2
-      y: 63
-      width: 18
-      height: 6
-  - id: 27
-    rect:
-      serializedVersion: 2
-      x: 25
-      y: 108
-      width: 12
-      height: 8
-  - id: 28
-    rect:
-      serializedVersion: 2
-      x: 70
-      y: 8
-      width: 5
-      height: 19
-  - id: 29
-    rect:
-      serializedVersion: 2
-      x: 2
-      y: 94
       width: 13
-      height: 8
-  - id: 30
-    rect:
-      serializedVersion: 2
-      x: 67
-      y: 56
-      width: 7
-      height: 14
-  - id: 31
-    rect:
-      serializedVersion: 2
-      x: 61
-      y: 105
-      width: 8
-      height: 12
-  - id: 32
-    rect:
-      serializedVersion: 2
-      x: 2
-      y: 20
-      width: 14
-      height: 5
-  - id: 33
-    rect:
-      serializedVersion: 2
-      x: 29
-      y: 93
-      width: 9
-      height: 8
+      height: 10
   corridors:
   - doorPosition:
-    - {x: 10, y: 25}
-    - {x: 10, y: 30}
-    ways:
-    - serializedVersion: 2
-      x: 10
-      y: 25
-      width: 3
-      height: 5
-  - doorPosition:
-    - {x: 44, y: 58}
-    - {x: 48, y: 58}
-    ways:
-    - serializedVersion: 2
-      x: 44
-      y: 58
-      width: 4
-      height: 3
-  - doorPosition:
-    - {x: 63, y: 9}
-    - {x: 70, y: 9}
-    ways:
-    - serializedVersion: 2
-      x: 63
-      y: 9
-      width: 7
-      height: 3
-  - doorPosition:
-    - {x: 12, y: 69}
-    - {x: 12, y: 74}
-    ways:
-    - serializedVersion: 2
-      x: 12
-      y: 69
-      width: 3
-      height: 5
-  - doorPosition:
-    - {x: 56, y: 109}
-    - {x: 61, y: 109}
-    ways:
-    - serializedVersion: 2
-      x: 56
-      y: 109
-      width: 5
-      height: 3
-  - doorPosition:
-    - {x: 17, y: 36}
-    - {x: 17, y: 43}
-    ways:
-    - serializedVersion: 2
-      x: 17
-      y: 36
-      width: 3
-      height: 7
-  - doorPosition:
-    - {x: 90, y: 29}
-    - {x: 90, y: 36}
-    ways:
-    - serializedVersion: 2
-      x: 90
-      y: 29
-      width: 3
-      height: 7
-  - doorPosition:
-    - {x: 30, y: 101}
-    - {x: 30, y: 108}
-    ways:
-    - serializedVersion: 2
-      x: 30
-      y: 101
-      width: 3
-      height: 7
-  - doorPosition:
-    - {x: 32, y: 87}
-    - {x: 32, y: 93}
-    ways:
-    - serializedVersion: 2
-      x: 32
-      y: 87
-      width: 3
-      height: 6
-  - doorPosition:
-    - {x: 8, y: 102}
-    - {x: 8, y: 109}
-    ways:
-    - serializedVersion: 2
-      x: 8
-      y: 102
-      width: 3
-      height: 7
-  - doorPosition:
-    - {x: 88, y: 101}
-    - {x: 88, y: 108}
-    ways:
-    - serializedVersion: 2
-      x: 88
-      y: 101
-      width: 3
-      height: 7
-  - doorPosition:
-    - {x: 38, y: 83}
-    - {x: 43, y: 83}
-    ways:
-    - serializedVersion: 2
-      x: 38
-      y: 83
-      width: 5
-      height: 3
-  - doorPosition:
-    - {x: 84, y: 87}
-    - {x: 84, y: 94}
-    ways:
-    - serializedVersion: 2
-      x: 84
-      y: 87
-      width: 3
-      height: 7
-  - doorPosition:
-    - {x: 11, y: 12}
-    - {x: 11, y: 20}
-    ways:
-    - serializedVersion: 2
-      x: 11
-      y: 12
-      width: 3
-      height: 8
-  - doorPosition:
-    - {x: 95, y: 13}
-    - {x: 95, y: 22}
-    ways:
-    - serializedVersion: 2
-      x: 95
-      y: 13
-      width: 3
-      height: 9
-  - doorPosition:
-    - {x: 23, y: 78}
-    - {x: 28, y: 78}
-    ways:
-    - serializedVersion: 2
-      x: 23
-      y: 78
-      width: 5
-      height: 3
-  - doorPosition:
-    - {x: 92, y: 70}
-    - {x: 92, y: 76}
-    ways:
-    - serializedVersion: 2
-      x: 92
-      y: 70
-      width: 3
-      height: 6
-  - doorPosition:
-    - {x: 57, y: 61}
-    - {x: 67, y: 61}
-    ways:
-    - serializedVersion: 2
-      x: 57
-      y: 61
-      width: 10
-      height: 3
-  - doorPosition:
-    - {x: 16, y: 53}
-    - {x: 16, y: 63}
-    ways:
-    - serializedVersion: 2
-      x: 16
-      y: 53
-      width: 3
-      height: 10
-  - doorPosition:
-    - {x: 62, y: 92}
-    - {x: 52, y: 92}
-    ways:
-    - serializedVersion: 2
-      x: 62
-      y: 92
-      width: -10
-      height: 3
-  - doorPosition:
-    - {x: 110, y: 45}
-    - {x: 110, y: 52}
-    ways:
-    - serializedVersion: 2
-      x: 110
-      y: 45
-      width: 3
-      height: 7
-  - doorPosition:
-    - {x: 44, y: 112}
-    - {x: 37, y: 112}
-    ways:
-    - serializedVersion: 2
-      x: 44
-      y: 112
-      width: -7
-      height: 3
-  - doorPosition:
-    - {x: 25, y: 111}
-    - {x: 18, y: 111}
-    ways:
-    - serializedVersion: 2
-      x: 25
-      y: 111
-      width: -7
-      height: 3
-  - doorPosition:
-    - {x: 103, y: 61}
-    - {x: 96, y: 61}
-    ways:
-    - serializedVersion: 2
-      x: 103
-      y: 61
-      width: -7
-      height: 3
-  - doorPosition:
-    - {x: 74, y: 63}
-    - {x: 84, y: 63}
-    ways:
-    - serializedVersion: 2
-      x: 74
-      y: 63
-      width: 10
-      height: 3
-  - doorPosition:
-    - {x: 69, y: 111}
-    - {x: 77, y: 111}
-    ways:
-    - serializedVersion: 2
-      x: 69
-      y: 111
-      width: 8
-      height: 3
-  - doorPosition:
-    - {x: 101, y: 81}
-    - {x: 107, y: 81}
-    ways:
-    - serializedVersion: 2
-      x: 101
-      y: 81
-      width: 6
-      height: 3
-  - doorPosition:
-    - {x: 81, y: 9}
-    - {x: 75, y: 9}
-    ways:
-    - serializedVersion: 2
-      x: 81
-      y: 9
-      width: -6
-      height: 3
-  - doorPosition:
-    - {x: 70, y: 13}
-    - {x: 65, y: 32}
-    ways:
-    - serializedVersion: 2
-      x: 70
-      y: 13
-      width: -5
-      height: 3
-    - serializedVersion: 2
-      x: 65
-      y: 32
-      width: 3
-      height: -16
-  - doorPosition:
-    - {x: 43, y: 13}
-    - {x: 53, y: 13}
-    ways:
-    - serializedVersion: 2
-      x: 43
-      y: 13
-      width: 10
-      height: 3
-  - doorPosition:
-    - {x: 21, y: 31}
-    - {x: 30, y: 31}
+    - {x: 21, y: 55}
+    - {x: 26, y: 55}
     ways:
     - serializedVersion: 2
       x: 21
-      y: 31
-      width: 9
+      y: 55
+      width: 5
       height: 3
   - doorPosition:
-    - {x: 23, y: 4}
-    - {x: 32, y: 4}
+    - {x: 28, y: 24}
+    - {x: 28, y: 32}
     ways:
     - serializedVersion: 2
-      x: 23
-      y: 4
-      width: 9
-      height: 3
-  - doorPosition:
-    - {x: 108, y: 101}
-    - {x: 108, y: 108}
-    ways:
-    - serializedVersion: 2
-      x: 108
-      y: 101
-      width: 3
-      height: 7
-  - doorPosition:
-    - {x: 101, y: 5}
-    - {x: 110, y: 5}
-    ways:
-    - serializedVersion: 2
-      x: 101
-      y: 5
-      width: 9
-      height: 3
-  - doorPosition:
-    - {x: 43, y: 94}
-    - {x: 38, y: 94}
-    ways:
-    - serializedVersion: 2
-      x: 43
-      y: 94
-      width: -5
-      height: 3
-  - doorPosition:
-    - {x: 11, y: 86}
-    - {x: 11, y: 94}
-    ways:
-    - serializedVersion: 2
-      x: 11
-      y: 86
+      x: 28
+      y: 24
       width: 3
       height: 8
   - doorPosition:
-    - {x: 75, y: 23}
-    - {x: 82, y: 23}
+    - {x: 9, y: 39}
+    - {x: 9, y: 45}
     ways:
     - serializedVersion: 2
-      x: 75
-      y: 23
-      width: 7
-      height: 3
+      x: 9
+      y: 39
+      width: 3
+      height: 6
   - doorPosition:
-    - {x: -1, y: -1}
-    - {x: -1, y: -1}
-    ways: []
-  - doorPosition:
-    - {x: 107, y: 97}
-    - {x: 100, y: 97}
+    - {x: 15, y: 97}
+    - {x: 15, y: 106}
     ways:
     - serializedVersion: 2
-      x: 107
+      x: 15
       y: 97
-      width: -7
-      height: 3
-  - doorPosition:
-    - {x: 97, y: 38}
-    - {x: 106, y: 38}
-    ways:
-    - serializedVersion: 2
-      x: 97
-      y: 38
-      width: 9
-      height: 3
-  - doorPosition:
-    - {x: 47, y: 98}
-    - {x: 47, y: 105}
-    ways:
-    - serializedVersion: 2
-      x: 47
-      y: 98
       width: 3
-      height: 7
+      height: 9
   - doorPosition:
-    - {x: 37, y: 18}
-    - {x: 37, y: 30}
+    - {x: 90, y: 73}
+    - {x: 90, y: 78}
     ways:
     - serializedVersion: 2
-      x: 37
-      y: 18
+      x: 90
+      y: 73
       width: 3
-      height: 12
+      height: 5
   - doorPosition:
-    - {x: 58, y: 25}
-    - {x: 58, y: 32}
+    - {x: 82, y: 25}
+    - {x: 82, y: 32}
     ways:
     - serializedVersion: 2
-      x: 58
+      x: 82
       y: 25
       width: 3
       height: 7
   - doorPosition:
-    - {x: 35, y: 36}
-    - {x: 35, y: 44}
+    - {x: 34, y: 53}
+    - {x: 45, y: 53}
     ways:
     - serializedVersion: 2
-      x: 35
-      y: 36
-      width: 3
-      height: 8
+      x: 34
+      y: 53
+      width: 11
+      height: 3
   - doorPosition:
-    - {x: 92, y: 45}
-    - {x: 92, y: 58}
+    - {x: 94, y: 67}
+    - {x: 101, y: 67}
+    ways:
+    - serializedVersion: 2
+      x: 94
+      y: 67
+      width: 7
+      height: 3
+  - doorPosition:
+    - {x: 92, y: 92}
+    - {x: 92, y: 103}
     ways:
     - serializedVersion: 2
       x: 92
-      y: 45
+      y: 92
+      width: 3
+      height: 11
+  - doorPosition:
+    - {x: 101, y: 88}
+    - {x: 110, y: 88}
+    ways:
+    - serializedVersion: 2
+      x: 101
+      y: 88
+      width: 9
+      height: 3
+  - doorPosition:
+    - {x: 62, y: 96}
+    - {x: 62, y: 108}
+    ways:
+    - serializedVersion: 2
+      x: 62
+      y: 96
+      width: 3
+      height: 12
+  - doorPosition:
+    - {x: 44, y: 109}
+    - {x: 55, y: 109}
+    ways:
+    - serializedVersion: 2
+      x: 44
+      y: 109
+      width: 11
+      height: 3
+  - doorPosition:
+    - {x: 108, y: 49}
+    - {x: 108, y: 62}
+    ways:
+    - serializedVersion: 2
+      x: 108
+      y: 49
       width: 3
       height: 13
   - doorPosition:
-    - {x: 63, y: 96}
-    - {x: 63, y: 105}
+    - {x: 76, y: 46}
+    - {x: 76, y: 58}
     ways:
     - serializedVersion: 2
-      x: 63
-      y: 96
+      x: 76
+      y: 46
+      width: 3
+      height: 12
+  - doorPosition:
+    - {x: 104, y: 24}
+    - {x: 104, y: 34}
+    ways:
+    - serializedVersion: 2
+      x: 104
+      y: 24
+      width: 3
+      height: 10
+  - doorPosition:
+    - {x: 34, y: 107}
+    - {x: 21, y: 107}
+    ways:
+    - serializedVersion: 2
+      x: 34
+      y: 107
+      width: -13
+      height: 3
+  - doorPosition:
+    - {x: 56, y: 70}
+    - {x: 56, y: 80}
+    ways:
+    - serializedVersion: 2
+      x: 56
+      y: 70
+      width: 3
+      height: 10
+  - doorPosition:
+    - {x: 82, y: 109}
+    - {x: 68, y: 109}
+    ways:
+    - serializedVersion: 2
+      x: 82
+      y: 109
+      width: -14
+      height: 3
+  - doorPosition:
+    - {x: 71, y: 9}
+    - {x: 59, y: 9}
+    ways:
+    - serializedVersion: 2
+      x: 71
+      y: 9
+      width: -12
+      height: 3
+  - doorPosition:
+    - {x: 101, y: 80}
+    - {x: 103, y: 73}
+    ways:
+    - serializedVersion: 2
+      x: 101
+      y: 80
+      width: 5
+      height: 3
+    - serializedVersion: 2
+      x: 103
+      y: 73
+      width: 3
+      height: 7
+  - doorPosition:
+    - {x: 27, y: 39}
+    - {x: 27, y: 48}
+    ways:
+    - serializedVersion: 2
+      x: 27
+      y: 39
       width: 3
       height: 9
   - doorPosition:
-    - {x: 110, y: 18}
-    - {x: 92, y: 22}
+    - {x: 52, y: 92}
+    - {x: 44, y: 92}
+    ways:
+    - serializedVersion: 2
+      x: 52
+      y: 92
+      width: -8
+      height: 3
+  - doorPosition:
+    - {x: 111, y: 73}
+    - {x: 111, y: 78}
+    ways:
+    - serializedVersion: 2
+      x: 111
+      y: 73
+      width: 3
+      height: 5
+  - doorPosition:
+    - {x: 23, y: 92}
+    - {x: 34, y: 92}
+    ways:
+    - serializedVersion: 2
+      x: 23
+      y: 92
+      width: 11
+      height: 3
+  - doorPosition:
+    - {x: 102, y: 14}
+    - {x: 90, y: 14}
+    ways:
+    - serializedVersion: 2
+      x: 102
+      y: 14
+      width: -12
+      height: 3
+  - doorPosition:
+    - {x: 110, y: 104}
+    - {x: 100, y: 104}
     ways:
     - serializedVersion: 2
       x: 110
-      y: 18
-      width: -18
-      height: 3
-    - serializedVersion: 2
-      x: 92
-      y: 22
-      width: 3
-      height: -1
-  - doorPosition:
-    - {x: 74, y: 38}
-    - {x: 82, y: 38}
-    ways:
-    - serializedVersion: 2
-      x: 74
-      y: 38
-      width: 8
+      y: 104
+      width: -10
       height: 3
   corridorWidth: 3
   drawGizmos: 1
-  roomCount: 25
+  roomCount: 10
   roomSize:
     min: 6
     max: 12
@@ -860,826 +557,452 @@ MonoBehaviour:
     max: 10
   roomPossibleConnections:
   - r1:
-      id: 32
+      id: 3
       rect:
         serializedVersion: 2
-        x: 2
-        y: 20
-        width: 14
-        height: 5
+        x: 8
+        y: 45
+        width: 13
+        height: 19
     r2:
-      id: 19
+      id: 17
       rect:
         serializedVersion: 2
-        x: 7
-        y: 30
-        width: 14
-        height: 6
+        x: 26
+        y: 48
+        width: 8
+        height: 21
+    corridorDir: 3
+  - r1:
+      id: 0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 9
+        width: 28
+        height: 15
+    r2:
+      id: 14
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 32
+        width: 27
+        height: 7
     corridorDir: 3
   - r1:
       id: 14
       rect:
         serializedVersion: 2
-        x: 34
-        y: 44
-        width: 10
-        height: 24
-    r2:
-      id: 7
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 54
-        width: 9
-        height: 14
-    corridorDir: 3
-  - r1:
-      id: 3
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 6
-        width: 10
-        height: 19
-    r2:
-      id: 28
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 8
-        width: 5
-        height: 19
-    corridorDir: 3
-  - r1:
-      id: 26
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 63
-        width: 18
-        height: 6
-    r2:
-      id: 0
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 74
-        width: 15
-        height: 12
-    corridorDir: 3
-  - r1:
-      id: 12
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 105
-        width: 12
-        height: 12
-    r2:
-      id: 31
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 105
-        width: 8
-        height: 12
-    corridorDir: 3
-  - r1:
-      id: 19
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 30
-        width: 14
-        height: 6
-    r2:
-      id: 5
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 43
-        width: 20
-        height: 10
-    corridorDir: 3
-  - r1:
-      id: 24
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 22
-        width: 20
-        height: 7
-    r2:
-      id: 9
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 36
-        width: 15
-        height: 9
-    corridorDir: 3
-  - r1:
-      id: 33
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 93
-        width: 9
-        height: 8
-    r2:
-      id: 27
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 108
-        width: 12
-        height: 8
-    corridorDir: 3
-  - r1:
-      id: 17
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 76
-        width: 10
-        height: 11
-    r2:
-      id: 33
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 93
-        width: 9
-        height: 8
-    corridorDir: 3
-  - r1:
-      id: 29
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 94
-        width: 13
-        height: 8
-    r2:
-      id: 10
-      rect:
-        serializedVersion: 2
         x: 6
-        y: 109
-        width: 12
-        height: 9
-    corridorDir: 3
-  - r1:
-      id: 25
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 94
-        width: 20
-        height: 7
-    r2:
-      id: 8
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 108
-        width: 15
-        height: 9
-    corridorDir: 3
-  - r1:
-      id: 17
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 76
-        width: 10
-        height: 11
-    r2:
-      id: 4
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 79
-        width: 9
-        height: 19
-    corridorDir: 3
-  - r1:
-      id: 2
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 76
-        width: 18
-        height: 11
-    r2:
-      id: 25
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 94
-        width: 20
-        height: 7
-    corridorDir: 3
-  - r1:
-      id: 0
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 2
-        width: 14
-        height: 10
-    r2:
-      id: 32
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 20
-        width: 14
-        height: 5
-    corridorDir: 3
-  - r1:
-      id: 1
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 4
-        width: 20
-        height: 9
-    r2:
-      id: 24
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 22
-        width: 20
-        height: 7
-    corridorDir: 3
-  - r1:
-      id: 0
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 74
-        width: 15
-        height: 12
-    r2:
-      id: 17
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 76
-        width: 10
-        height: 11
-    corridorDir: 3
-  - r1:
-      id: 6
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 58
-        width: 12
-        height: 12
-    r2:
-      id: 2
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 76
-        width: 18
-        height: 11
-    corridorDir: 3
-  - r1:
-      id: 7
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 54
-        width: 9
-        height: 14
-    r2:
-      id: 30
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 56
-        width: 7
-        height: 14
-    corridorDir: 3
-  - r1:
-      id: 5
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 43
-        width: 20
-        height: 10
-    r2:
-      id: 26
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 63
-        width: 18
-        height: 6
-    corridorDir: 3
-  - r1:
-      id: 22
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 78
-        width: 8
-        height: 18
-    r2:
-      id: 4
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 79
-        width: 9
-        height: 19
-    corridorDir: 3
-  - r1:
-      id: 21
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 36
-        width: 12
-        height: 9
-    r2:
-      id: 18
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 52
-        width: 11
-        height: 14
-    corridorDir: 3
-  - r1:
-      id: 12
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 105
-        width: 12
-        height: 12
-    r2:
-      id: 27
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 108
-        width: 12
-        height: 8
-    corridorDir: 3
-  - r1:
-      id: 27
-      rect:
-        serializedVersion: 2
-        x: 25
-        y: 108
-        width: 12
-        height: 8
-    r2:
-      id: 10
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 109
-        width: 12
-        height: 9
-    corridorDir: 3
-  - r1:
-      id: 18
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 52
-        width: 11
-        height: 14
-    r2:
-      id: 6
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 58
-        width: 12
-        height: 12
-    corridorDir: 3
-  - r1:
-      id: 30
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 56
-        width: 7
-        height: 14
-    r2:
-      id: 6
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 58
-        width: 12
-        height: 12
-    corridorDir: 3
-  - r1:
-      id: 31
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 105
-        width: 8
-        height: 12
-    r2:
-      id: 8
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 108
-        width: 15
-        height: 9
-    corridorDir: 3
-  - r1:
-      id: 2
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 76
-        width: 18
-        height: 11
-    r2:
-      id: 15
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 80
-        width: 7
-        height: 21
-    corridorDir: 3
-  - r1:
-      id: 1
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 4
-        width: 20
-        height: 9
-    r2:
-      id: 28
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 8
-        width: 5
-        height: 19
-    corridorDir: 3
-  - r1:
-      id: 28
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 8
-        width: 5
-        height: 19
-    r2:
-      id: 13
-      rect:
-        serializedVersion: 2
-        x: 57
         y: 32
-        width: 17
-        height: 11
-    corridorDir: 3
-  - r1:
-      id: 11
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 2
-        width: 11
-        height: 16
+        width: 27
+        height: 7
     r2:
       id: 3
       rect:
         serializedVersion: 2
-        x: 53
-        y: 6
-        width: 10
+        x: 8
+        y: 45
+        width: 13
         height: 19
-    corridorDir: 3
-  - r1:
-      id: 19
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 30
-        width: 14
-        height: 6
-    r2:
-      id: 23
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 30
-        width: 11
-        height: 6
     corridorDir: 3
   - r1:
       id: 0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 2
-        width: 14
-        height: 10
-    r2:
-      id: 11
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 2
-        width: 11
-        height: 16
-    corridorDir: 3
-  - r1:
-      id: 15
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 80
-        width: 7
-        height: 21
-    r2:
-      id: 20
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 108
-        width: 12
-        height: 10
-    corridorDir: 3
-  - r1:
-      id: 1
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 4
-        width: 20
-        height: 9
+        x: 4
+        y: 85
+        width: 19
+        height: 12
     r2:
       id: 16
       rect:
         serializedVersion: 2
-        x: 110
-        y: 3
-        width: 7
-        height: 23
+        x: 5
+        y: 106
+        width: 16
+        height: 10
     corridorDir: 3
   - r1:
       id: 4
       rect:
         serializedVersion: 2
-        x: 43
-        y: 79
-        width: 9
-        height: 19
+        x: 75
+        y: 58
+        width: 19
+        height: 15
     r2:
-      id: 33
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 93
-        width: 9
-        height: 8
-    corridorDir: 3
-  - r1:
-      id: 0
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 74
-        width: 15
-        height: 12
-    r2:
-      id: 29
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 94
-        width: 13
-        height: 8
-    corridorDir: 3
-  - r1:
-      id: 28
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 8
-        width: 5
-        height: 19
-    r2:
-      id: 24
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 22
-        width: 20
-        height: 7
-    corridorDir: 3
-  - r1:
-      id: 33
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 93
-        width: 9
-        height: 8
-    r2:
-      id: 12
-      rect:
-        serializedVersion: 2
-        x: 44
-        y: 105
-        width: 12
-        height: 12
-    corridorDir: 3
-  - r1:
-      id: 15
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 80
-        width: 7
-        height: 21
-    r2:
-      id: 25
+      id: 2
       rect:
         serializedVersion: 2
         x: 80
-        y: 94
-        width: 20
-        height: 7
+        y: 78
+        width: 21
+        height: 14
     corridorDir: 3
   - r1:
-      id: 9
+      id: 1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 36
-        width: 15
-        height: 9
+        x: 71
+        y: 6
+        width: 19
+        height: 19
     r2:
-      id: 21
+      id: 11
       rect:
         serializedVersion: 2
-        x: 106
-        y: 36
-        width: 12
-        height: 9
+        x: 70
+        y: 32
+        width: 20
+        height: 14
+    corridorDir: 3
+  - r1:
+      id: 17
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 48
+        width: 8
+        height: 21
+    r2:
+      id: 8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 51
+        width: 17
+        height: 19
     corridorDir: 3
   - r1:
       id: 4
       rect:
         serializedVersion: 2
-        x: 43
-        y: 79
-        width: 9
-        height: 19
+        x: 75
+        y: 58
+        width: 19
+        height: 15
     r2:
       id: 12
       rect:
         serializedVersion: 2
-        x: 44
-        y: 105
-        width: 12
-        height: 12
+        x: 101
+        y: 62
+        width: 14
+        height: 11
+    corridorDir: 3
+  - r1:
+      id: 2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 78
+        width: 21
+        height: 14
+    r2:
+      id: 15
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 103
+        width: 18
+        height: 13
+    corridorDir: 3
+  - r1:
+      id: 2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 78
+        width: 21
+        height: 14
+    r2:
+      id: 9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 78
+        width: 8
+        height: 31
+    corridorDir: 3
+  - r1:
+      id: 5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 80
+        width: 17
+        height: 16
+    r2:
+      id: 18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 108
+        width: 13
+        height: 10
+    corridorDir: 3
+  - r1:
+      id: 10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 88
+        width: 10
+        height: 28
+    r2:
+      id: 18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 108
+        width: 13
+        height: 10
+    corridorDir: 3
+  - r1:
+      id: 13
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 34
+        width: 14
+        height: 15
+    r2:
+      id: 12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 62
+        width: 14
+        height: 11
     corridorDir: 3
   - r1:
       id: 11
       rect:
         serializedVersion: 2
-        x: 32
-        y: 2
-        width: 11
-        height: 16
+        x: 70
+        y: 32
+        width: 20
+        height: 14
     r2:
-      id: 23
+      id: 4
       rect:
         serializedVersion: 2
-        x: 30
-        y: 30
-        width: 11
-        height: 6
+        x: 75
+        y: 58
+        width: 19
+        height: 15
     corridorDir: 3
   - r1:
-      id: 3
+      id: 7
       rect:
         serializedVersion: 2
-        x: 53
-        y: 6
-        width: 10
+        x: 102
+        y: 5
+        width: 13
         height: 19
     r2:
       id: 13
       rect:
         serializedVersion: 2
-        x: 57
-        y: 32
-        width: 17
-        height: 11
+        x: 103
+        y: 34
+        width: 14
+        height: 15
     corridorDir: 3
   - r1:
-      id: 23
+      id: 10
       rect:
         serializedVersion: 2
-        x: 30
-        y: 30
-        width: 11
-        height: 6
+        x: 34
+        y: 88
+        width: 10
+        height: 28
     r2:
+      id: 16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 106
+        width: 16
+        height: 10
+    corridorDir: 3
+  - r1:
+      id: 8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 51
+        width: 17
+        height: 19
+    r2:
+      id: 5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 80
+        width: 17
+        height: 16
+    corridorDir: 3
+  - r1:
+      id: 15
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 103
+        width: 18
+        height: 13
+    r2:
+      id: 18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 108
+        width: 13
+        height: 10
+    corridorDir: 3
+  - r1:
+      id: 1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 6
+        width: 19
+        height: 19
+    r2:
+      id: 6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2
+        width: 19
+        height: 32
+    corridorDir: 3
+  - r1:
+      id: 12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 62
+        width: 14
+        height: 11
+    r2:
+      id: 2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 78
+        width: 21
+        height: 14
+    corridorDir: 3
+  - r1:
       id: 14
       rect:
         serializedVersion: 2
-        x: 34
-        y: 44
-        width: 10
-        height: 24
-    corridorDir: 3
-  - r1:
-      id: 9
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 36
-        width: 15
-        height: 9
-    r2:
-      id: 6
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 58
-        width: 12
-        height: 12
-    corridorDir: 3
-  - r1:
-      id: 22
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 78
-        width: 8
-        height: 18
-    r2:
-      id: 31
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 105
-        width: 8
-        height: 12
-    corridorDir: 3
-  - r1:
-      id: 16
-      rect:
-        serializedVersion: 2
-        x: 110
-        y: 3
-        width: 7
-        height: 23
-    r2:
-      id: 24
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 22
-        width: 20
-        height: 7
-    corridorDir: 3
-  - r1:
-      id: 13
-      rect:
-        serializedVersion: 2
-        x: 57
+        x: 6
         y: 32
+        width: 27
+        height: 7
+    r2:
+      id: 17
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 48
+        width: 8
+        height: 21
+    corridorDir: 3
+  - r1:
+      id: 5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 80
         width: 17
+        height: 16
+    r2:
+      id: 10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 88
+        width: 10
+        height: 28
+    corridorDir: 3
+  - r1:
+      id: 12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 62
+        width: 14
         height: 11
     r2:
       id: 9
       rect:
         serializedVersion: 2
+        x: 110
+        y: 78
+        width: 8
+        height: 31
+    corridorDir: 3
+  - r1:
+      id: 0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 85
+        width: 19
+        height: 12
+    r2:
+      id: 10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 88
+        width: 10
+        height: 28
+    corridorDir: 3
+  - r1:
+      id: 7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 5
+        width: 13
+        height: 19
+    r2:
+      id: 1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 6
+        width: 19
+        height: 19
+    corridorDir: 3
+  - r1:
+      id: 9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 78
+        width: 8
+        height: 31
+    r2:
+      id: 15
+      rect:
+        serializedVersion: 2
         x: 82
-        y: 36
-        width: 15
-        height: 9
+        y: 103
+        width: 18
+        height: 13
     corridorDir: 3
   drawDoorFinder: 0
   drawPossibleCorridor: 0
   drawPossibleLCorridor: 0
   boardSize: {x: 120, y: 120}
-  partitionCount: 35
+  partitionCount: 20
   sliceRange:
     min: 0.3
     max: 0.5
@@ -1860,352 +1183,323 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rooms:
-  - id: 1
-    rect:
-      serializedVersion: 2
-      x: -16
-      y: -10
-      width: 34
-      height: 21
-  - id: 14
-    rect:
-      serializedVersion: 2
-      x: 18
-      y: -11
-      width: 27
-      height: 15
-  - id: 29
-    rect:
-      serializedVersion: 2
-      x: -34
-      y: -17
-      width: 18
-      height: 27
-  - id: 22
-    rect:
-      serializedVersion: 2
-      x: -12
-      y: 11
-      width: 14
-      height: 16
-  - id: 4
-    rect:
-      serializedVersion: 2
-      x: 45
-      y: -10
-      width: 23
-      height: 12
-  - id: 7
-    rect:
-      serializedVersion: 2
-      x: -56
-      y: -24
-      width: 22
-      height: 35
-  - id: 0
-    rect:
-      serializedVersion: 2
-      x: -81
-      y: -4
-      width: 25
-      height: 22
-  - id: 17
-    rect:
-      serializedVersion: 2
-      x: 68
-      y: -5
-      width: 34
-      height: 23
-  - id: 8
-    rect:
-      serializedVersion: 2
-      x: -76
-      y: 18
-      width: 20
-      height: 21
-  - id: 28
-    rect:
-      serializedVersion: 2
-      x: -68
-      y: 39
-      width: 12
-      height: 26
-  - id: 27
-    rect:
-      serializedVersion: 2
-      x: 0
-      y: 27
-      width: 19
-      height: 21
-  - id: 12
-    rect:
-      serializedVersion: 2
-      x: 102
-      y: -14
-      width: 31
-      height: 12
-  - id: 13
-    rect:
-      serializedVersion: 2
-      x: -97
-      y: -26
-      width: 16
-      height: 27
-  - id: 20
-    rect:
-      serializedVersion: 2
-      x: -100
-      y: 10
-      width: 19
-      height: 19
-  - id: 19
-    rect:
-      serializedVersion: 2
-      x: -16
-      y: -25
-      width: 20
-      height: 15
-  - id: 21
-    rect:
-      serializedVersion: 2
-      x: 68
-      y: 18
-      width: 21
-      height: 25
-  - id: 26
-    rect:
-      serializedVersion: 2
-      x: -124
-      y: 4
-      width: 24
-      height: 24
-  - id: 11
-    rect:
-      serializedVersion: 2
-      x: 18
-      y: 5
-      width: 14
-      height: 16
-  - id: 3
-    rect:
-      serializedVersion: 2
-      x: -5
-      y: -37
-      width: 17
-      height: 12
-  - id: 25
-    rect:
-      serializedVersion: 2
-      x: -16
-      y: -53
-      width: 15
-      height: 16
   - id: 2
     rect:
       serializedVersion: 2
-      x: -116
-      y: 29
-      width: 35
-      height: 25
-  - id: 24
-    rect:
-      serializedVersion: 2
-      x: -90
-      y: -61
-      width: 34
-      height: 35
-  - id: 15
-    rect:
-      serializedVersion: 2
-      x: 45
-      y: -23
-      width: 31
-      height: 13
-  - id: 16
-    rect:
-      serializedVersion: 2
-      x: 102
-      y: -2
+      x: -7
+      y: -10
       width: 15
-      height: 12
-  - id: 23
+      height: 21
+  - id: 7
     rect:
       serializedVersion: 2
-      x: 4
-      y: -57
-      width: 30
-      height: 20
-  - id: 6
-    rect:
-      serializedVersion: 2
-      x: -107
-      y: -55
-      width: 17
-      height: 29
-  - id: 9
-    rect:
-      serializedVersion: 2
-      x: 14
-      y: 48
-      width: 27
-      height: 18
-  - id: 10
+      x: -9
+      y: -29
+      width: 19
+      height: 19
+  - id: 22
     rect:
       serializedVersion: 2
       x: -10
-      y: -70
-      width: 27
+      y: 11
+      width: 23
+      height: 32
+  - id: 8
+    rect:
+      serializedVersion: 2
+      x: -14
+      y: -41
+      width: 29
+      height: 12
+  - id: 3
+    rect:
+      serializedVersion: 2
+      x: -13
+      y: 43
+      width: 34
+      height: 29
+  - id: 4
+    rect:
+      serializedVersion: 2
+      x: -15
+      y: -54
+      width: 19
       height: 13
+  - id: 19
+    rect:
+      serializedVersion: 2
+      x: -33
+      y: -79
+      width: 26
+      height: 25
   - id: 5
     rect:
       serializedVersion: 2
-      x: -38
-      y: 15
-      width: 25
-      height: 27
+      x: 13
+      y: 1
+      width: 13
+      height: 13
+  - id: 14
+    rect:
+      serializedVersion: 2
+      x: 26
+      y: -10
+      width: 22
+      height: 16
+  - id: 10
+    rect:
+      serializedVersion: 2
+      x: -4
+      y: 72
+      width: 26
+      height: 26
+  - id: 0
+    rect:
+      serializedVersion: 2
+      x: 13
+      y: -24
+      width: 12
+      height: 25
+  - id: 23
+    rect:
+      serializedVersion: 2
+      x: -39
+      y: -10
+      width: 32
+      height: 20
+  - id: 27
+    rect:
+      serializedVersion: 2
+      x: 25
+      y: -27
+      width: 23
+      height: 15
+  - id: 15
+    rect:
+      serializedVersion: 2
+      x: -27
+      y: 12
+      width: 17
+      height: 18
+  - id: 12
+    rect:
+      serializedVersion: 2
+      x: 8
+      y: -70
+      width: 24
+      height: 29
+  - id: 24
+    rect:
+      serializedVersion: 2
+      x: -31
+      y: -107
+      width: 30
+      height: 28
+  - id: 16
+    rect:
+      serializedVersion: 2
+      x: -62
+      y: -87
+      width: 29
+      height: 33
+  - id: 21
+    rect:
+      serializedVersion: 2
+      x: -7
+      y: -135
+      width: 23
+      height: 28
+  - id: 13
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: -2
+      width: 20
+      height: 13
   - id: 18
     rect:
       serializedVersion: 2
-      x: -116
-      y: -26
-      width: 19
-      height: 22
+      x: -61
+      y: -10
+      width: 22
+      height: 14
+  - id: 26
+    rect:
+      serializedVersion: 2
+      x: 13
+      y: -93
+      width: 29
+      height: 23
+  - id: 9
+    rect:
+      serializedVersion: 2
+      x: -25
+      y: -121
+      width: 18
+      height: 14
+  - id: 28
+    rect:
+      serializedVersion: 2
+      x: -86
+      y: -64
+      width: 24
+      height: 23
+  - id: 1
+    rect:
+      serializedVersion: 2
+      x: 8
+      y: -167
+      width: 28
+      height: 32
+  - id: 20
+    rect:
+      serializedVersion: 2
+      x: -7
+      y: -193
+      width: 20
+      height: 26
+  - id: 11
+    rect:
+      serializedVersion: 2
+      x: -50
+      y: 30
+      width: 35
+      height: 16
+  - id: 6
+    rect:
+      serializedVersion: 2
+      x: -26
+      y: 72
+      width: 18
+      height: 25
+  - id: 25
+    rect:
+      serializedVersion: 2
+      x: -34
+      y: 97
+      width: 25
+      height: 20
+  - id: 29
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: -43
+      width: 13
+      height: 26
+  - id: 17
+    rect:
+      serializedVersion: 2
+      x: 38
+      y: 11
+      width: 17
+      height: 15
   corridors:
   - doorPosition:
-    - {x: -34, y: -1}
-    - {x: -34, y: -1}
+    - {x: -17, y: -79}
+    - {x: -17, y: -79}
     ways: []
   - doorPosition:
-    - {x: 83, y: 18}
-    - {x: 83, y: 18}
+    - {x: 26, y: -70}
+    - {x: 26, y: -70}
     ways: []
   - doorPosition:
-    - {x: -90, y: -44}
-    - {x: -90, y: -44}
+    - {x: -33, y: -65}
+    - {x: -33, y: -65}
     ways: []
   - doorPosition:
-    - {x: -16, y: -8}
-    - {x: -16, y: -8}
+    - {x: 15, y: 72}
+    - {x: 15, y: 72}
     ways: []
   - doorPosition:
-    - {x: -56, y: -1}
-    - {x: -56, y: -1}
+    - {x: 6, y: 43}
+    - {x: 6, y: 43}
     ways: []
   - doorPosition:
-    - {x: -114, y: 28}
-    - {x: -114, y: 29}
+    - {x: -62, y: -63}
+    - {x: -62, y: -63}
+    ways: []
+  - doorPosition:
+    - {x: 13, y: -181}
+    - {x: 15, y: -167}
     ways:
     - serializedVersion: 2
-      x: -114
-      y: 28
+      x: 13
+      y: -181
+      width: 2
+      height: 5
+    - serializedVersion: 2
+      x: 15
+      y: -167
       width: 5
-      height: 1
+      height: -14
   - doorPosition:
-    - {x: -27, y: 10}
-    - {x: -27, y: 15}
+    - {x: -7, y: -134}
+    - {x: -23, y: -107}
     ways:
     - serializedVersion: 2
-      x: -27
+      x: -7
+      y: -134
+      width: -16
+      height: 5
+    - serializedVersion: 2
+      x: -23
+      y: -107
+      width: 5
+      height: -22
+  - doorPosition:
+    - {x: 9, y: -135}
+    - {x: 9, y: -135}
+    ways: []
+  - doorPosition:
+    - {x: -10, y: 33}
+    - {x: -15, y: 33}
+    ways:
+    - serializedVersion: 2
+      x: -10
+      y: 33
+      width: -5
+      height: 5
+  - doorPosition:
+    - {x: -10, y: 20}
+    - {x: -21, y: 10}
+    ways:
+    - serializedVersion: 2
+      x: -10
+      y: 20
+      width: -11
+      height: 5
+    - serializedVersion: 2
+      x: -21
       y: 10
       width: 5
-      height: 5
+      height: 10
   - doorPosition:
-    - {x: 70, y: -10}
-    - {x: 70, y: -5}
+    - {x: -7, y: -63}
+    - {x: 8, y: -63}
     ways:
     - serializedVersion: 2
-      x: 70
-      y: -10
+      x: -7
+      y: -63
+      width: 15
+      height: 5
+  - doorPosition:
+    - {x: -19, y: -54}
+    - {x: -19, y: -10}
+    ways:
+    - serializedVersion: 2
+      x: -19
+      y: -54
       width: 5
-      height: 5
+      height: 44
   - doorPosition:
-    - {x: 102, y: 0}
-    - {x: 115, y: -2}
+    - {x: -31, y: -86}
+    - {x: -33, y: -86}
     ways:
     - serializedVersion: 2
-      x: 102
-      y: 0
-      width: 18
+      x: -31
+      y: -86
+      width: -2
       height: 5
-    - serializedVersion: 2
-      x: 115
-      y: -2
-      width: 5
-      height: 2
-  - doorPosition:
-    - {x: -81, y: 7}
-    - {x: -100, y: 7}
-    ways:
-    - serializedVersion: 2
-      x: -81
-      y: 7
-      width: -19
-      height: 5
-  - doorPosition:
-    - {x: -56, y: -15}
-    - {x: -88, y: -26}
-    ways:
-    - serializedVersion: 2
-      x: -56
-      y: -15
-      width: -32
-      height: 5
-    - serializedVersion: 2
-      x: -88
-      y: -26
-      width: 5
-      height: 11
-  - doorPosition:
-    - {x: 5, y: -37}
-    - {x: 5, y: -10}
-    ways:
-    - serializedVersion: 2
-      x: 5
-      y: -37
-      width: 5
-      height: 27
-  - doorPosition:
-    - {x: 45, y: -20}
-    - {x: 5, y: -37}
-    ways:
-    - serializedVersion: 2
-      x: 45
-      y: -20
-      width: -40
-      height: 5
-    - serializedVersion: 2
-      x: 5
-      y: -37
-      width: 5
-      height: 17
-  - doorPosition:
-    - {x: 68, y: 36}
-    - {x: 19, y: 48}
-    ways:
-    - serializedVersion: 2
-      x: 68
-      y: 36
-      width: -49
-      height: 5
-    - serializedVersion: 2
-      x: 19
-      y: 48
-      width: 5
-      height: -7
-  - doorPosition:
-    - {x: -13, y: 23}
-    - {x: 4, y: 11}
-    ways:
-    - serializedVersion: 2
-      x: -13
-      y: 23
-      width: 22
-      height: 5
-    - serializedVersion: 2
-      x: 4
-      y: 11
-      width: 5
-      height: 12
   corridorWidth: 5
   drawGizmos: 0
   roomCount: 30
@@ -2217,259 +1511,242 @@ MonoBehaviour:
     max: 50
   roomPossibleConnections:
   - r1:
-      id: 7
-      rect:
-        serializedVersion: 2
-        x: -56
-        y: -24
-        width: 22
-        height: 35
-    r2:
-      id: 29
-      rect:
-        serializedVersion: 2
-        x: -34
-        y: -17
-        width: 18
-        height: 27
-    corridorDir: 3
-  - r1:
-      id: 17
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: -5
-        width: 34
-        height: 23
-    r2:
-      id: 21
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 18
-        width: 21
-        height: 25
-    corridorDir: 3
-  - r1:
       id: 24
       rect:
         serializedVersion: 2
-        x: -90
-        y: -61
-        width: 34
-        height: 35
+        x: -31
+        y: -107
+        width: 30
+        height: 28
     r2:
-      id: 6
+      id: 19
       rect:
         serializedVersion: 2
-        x: -107
-        y: -55
-        width: 17
-        height: 29
-    corridorDir: 3
-  - r1:
-      id: 29
-      rect:
-        serializedVersion: 2
-        x: -34
-        y: -17
-        width: 18
-        height: 27
-    r2:
-      id: 1
-      rect:
-        serializedVersion: 2
-        x: -16
-        y: -10
-        width: 34
-        height: 21
-    corridorDir: 3
-  - r1:
-      id: 7
-      rect:
-        serializedVersion: 2
-        x: -56
-        y: -24
-        width: 22
-        height: 35
-    r2:
-      id: 0
-      rect:
-        serializedVersion: 2
-        x: -81
-        y: -4
-        width: 25
-        height: 22
+        x: -33
+        y: -79
+        width: 26
+        height: 25
     corridorDir: 3
   - r1:
       id: 26
       rect:
         serializedVersion: 2
-        x: -124
-        y: 4
-        width: 24
-        height: 24
-    r2:
-      id: 2
-      rect:
-        serializedVersion: 2
-        x: -116
-        y: 29
-        width: 35
-        height: 25
-    corridorDir: 3
-  - r1:
-      id: 29
-      rect:
-        serializedVersion: 2
-        x: -34
-        y: -17
-        width: 18
-        height: 27
-    r2:
-      id: 5
-      rect:
-        serializedVersion: 2
-        x: -38
-        y: 15
-        width: 25
-        height: 27
-    corridorDir: 3
-  - r1:
-      id: 15
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: -23
-        width: 31
-        height: 13
-    r2:
-      id: 17
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: -5
-        width: 34
+        x: 13
+        y: -93
+        width: 29
         height: 23
-    corridorDir: 3
-  - r1:
+    r2:
       id: 12
       rect:
         serializedVersion: 2
-        x: 102
-        y: -14
-        width: 31
-        height: 12
-    r2:
-      id: 17
+        x: 8
+        y: -70
+        width: 24
+        height: 29
+    corridorDir: 3
+  - r1:
+      id: 16
       rect:
         serializedVersion: 2
-        x: 68
-        y: -5
+        x: -62
+        y: -87
+        width: 29
+        height: 33
+    r2:
+      id: 19
+      rect:
+        serializedVersion: 2
+        x: -33
+        y: -79
+        width: 26
+        height: 25
+    corridorDir: 3
+  - r1:
+      id: 3
+      rect:
+        serializedVersion: 2
+        x: -13
+        y: 43
         width: 34
+        height: 29
+    r2:
+      id: 10
+      rect:
+        serializedVersion: 2
+        x: -4
+        y: 72
+        width: 26
+        height: 26
+    corridorDir: 3
+  - r1:
+      id: 22
+      rect:
+        serializedVersion: 2
+        x: -10
+        y: 11
+        width: 23
+        height: 32
+    r2:
+      id: 3
+      rect:
+        serializedVersion: 2
+        x: -13
+        y: 43
+        width: 34
+        height: 29
+    corridorDir: 3
+  - r1:
+      id: 16
+      rect:
+        serializedVersion: 2
+        x: -62
+        y: -87
+        width: 29
+        height: 33
+    r2:
+      id: 28
+      rect:
+        serializedVersion: 2
+        x: -86
+        y: -64
+        width: 24
         height: 23
     corridorDir: 3
   - r1:
-      id: 0
+      id: 20
       rect:
         serializedVersion: 2
-        x: -81
-        y: -4
-        width: 25
-        height: 22
-    r2:
-      id: 26
-      rect:
-        serializedVersion: 2
-        x: -124
-        y: 4
-        width: 24
-        height: 24
-    corridorDir: 3
-  - r1:
-      id: 24
-      rect:
-        serializedVersion: 2
-        x: -90
-        y: -61
-        width: 34
-        height: 35
-    r2:
-      id: 7
-      rect:
-        serializedVersion: 2
-        x: -56
-        y: -24
-        width: 22
-        height: 35
-    corridorDir: 3
-  - r1:
-      id: 23
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: -57
-        width: 30
-        height: 20
+        x: -7
+        y: -193
+        width: 20
+        height: 26
     r2:
       id: 1
       rect:
         serializedVersion: 2
-        x: -16
-        y: -10
-        width: 34
-        height: 21
-    corridorDir: 3
-  - r1:
-      id: 23
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: -57
-        width: 30
-        height: 20
-    r2:
-      id: 15
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: -23
-        width: 31
-        height: 13
+        x: 8
+        y: -167
+        width: 28
+        height: 32
     corridorDir: 3
   - r1:
       id: 21
       rect:
         serializedVersion: 2
-        x: 68
-        y: 18
-        width: 21
-        height: 25
+        x: -7
+        y: -135
+        width: 23
+        height: 28
     r2:
-      id: 9
+      id: 24
       rect:
         serializedVersion: 2
-        x: 14
-        y: 48
-        width: 27
-        height: 18
+        x: -31
+        y: -107
+        width: 30
+        height: 28
     corridorDir: 3
   - r1:
       id: 1
       rect:
         serializedVersion: 2
-        x: -16
-        y: -10
-        width: 34
-        height: 21
+        x: 8
+        y: -167
+        width: 28
+        height: 32
     r2:
-      id: 5
+      id: 21
       rect:
         serializedVersion: 2
-        x: -38
-        y: 15
-        width: 25
-        height: 27
+        x: -7
+        y: -135
+        width: 23
+        height: 28
+    corridorDir: 3
+  - r1:
+      id: 22
+      rect:
+        serializedVersion: 2
+        x: -10
+        y: 11
+        width: 23
+        height: 32
+    r2:
+      id: 11
+      rect:
+        serializedVersion: 2
+        x: -50
+        y: 30
+        width: 35
+        height: 16
+    corridorDir: 3
+  - r1:
+      id: 23
+      rect:
+        serializedVersion: 2
+        x: -39
+        y: -10
+        width: 32
+        height: 20
+    r2:
+      id: 22
+      rect:
+        serializedVersion: 2
+        x: -10
+        y: 11
+        width: 23
+        height: 32
+    corridorDir: 3
+  - r1:
+      id: 19
+      rect:
+        serializedVersion: 2
+        x: -33
+        y: -79
+        width: 26
+        height: 25
+    r2:
+      id: 12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: -70
+        width: 24
+        height: 29
+    corridorDir: 3
+  - r1:
+      id: 19
+      rect:
+        serializedVersion: 2
+        x: -33
+        y: -79
+        width: 26
+        height: 25
+    r2:
+      id: 23
+      rect:
+        serializedVersion: 2
+        x: -39
+        y: -10
+        width: 32
+        height: 20
+    corridorDir: 3
+  - r1:
+      id: 24
+      rect:
+        serializedVersion: 2
+        x: -31
+        y: -107
+        width: 30
+        height: 28
+    r2:
+      id: 16
+      rect:
+        serializedVersion: 2
+        x: -62
+        y: -87
+        width: 29
+        height: 33
     corridorDir: 3
   drawDoorFinder: 0
   drawPossibleCorridor: 0
@@ -2501,110 +1778,103 @@ MonoBehaviour:
   mainRoomSize: 0.5
   keepConnection: 0.052
   mainRooms:
-  - id: 24
+  - id: 3
     rect:
       serializedVersion: 2
-      x: -90
-      y: -61
+      x: -13
+      y: 43
       width: 34
-      height: 35
-  - id: 2
+      height: 29
+  - id: 16
     rect:
       serializedVersion: 2
-      x: -116
-      y: 29
-      width: 35
-      height: 25
-  - id: 7
-    rect:
-      serializedVersion: 2
-      x: -56
-      y: -24
-      width: 22
-      height: 35
-  - id: 17
-    rect:
-      serializedVersion: 2
-      x: 68
-      y: -5
-      width: 34
-      height: 23
+      x: -62
+      y: -87
+      width: 29
+      height: 33
   - id: 1
     rect:
       serializedVersion: 2
-      x: -16
-      y: -10
-      width: 34
-      height: 21
-  - id: 5
+      x: 8
+      y: -167
+      width: 28
+      height: 32
+  - id: 24
     rect:
       serializedVersion: 2
-      x: -38
-      y: 15
-      width: 25
-      height: 27
+      x: -31
+      y: -107
+      width: 30
+      height: 28
+  - id: 22
+    rect:
+      serializedVersion: 2
+      x: -10
+      y: 11
+      width: 23
+      height: 32
+  - id: 11
+    rect:
+      serializedVersion: 2
+      x: -50
+      y: 30
+      width: 35
+      height: 16
   - id: 23
     rect:
       serializedVersion: 2
-      x: 4
-      y: -57
-      width: 30
+      x: -39
+      y: -10
+      width: 32
       height: 20
-  - id: 26
-    rect:
-      serializedVersion: 2
-      x: -124
-      y: 4
-      width: 24
-      height: 24
-  - id: 6
-    rect:
-      serializedVersion: 2
-      x: -107
-      y: -55
-      width: 17
-      height: 29
-  - id: 15
-    rect:
-      serializedVersion: 2
-      x: 45
-      y: -23
-      width: 31
-      height: 13
-  - id: 0
-    rect:
-      serializedVersion: 2
-      x: -81
-      y: -4
-      width: 25
-      height: 22
   - id: 12
     rect:
       serializedVersion: 2
-      x: 102
-      y: -14
-      width: 31
-      height: 12
+      x: 8
+      y: -70
+      width: 24
+      height: 29
+  - id: 26
+    rect:
+      serializedVersion: 2
+      x: 13
+      y: -93
+      width: 29
+      height: 23
+  - id: 10
+    rect:
+      serializedVersion: 2
+      x: -4
+      y: 72
+      width: 26
+      height: 26
   - id: 21
     rect:
       serializedVersion: 2
-      x: 68
-      y: 18
-      width: 21
+      x: -7
+      y: -135
+      width: 23
+      height: 28
+  - id: 19
+    rect:
+      serializedVersion: 2
+      x: -33
+      y: -79
+      width: 26
       height: 25
-  - id: 9
+  - id: 28
     rect:
       serializedVersion: 2
-      x: 14
-      y: 48
-      width: 27
-      height: 18
-  - id: 29
+      x: -86
+      y: -64
+      width: 24
+      height: 23
+  - id: 20
     rect:
       serializedVersion: 2
-      x: -34
-      y: -17
-      width: 18
-      height: 27
+      x: -7
+      y: -193
+      width: 20
+      height: 26
   drawTriangulation: 0
   drawSpanningTree: 1

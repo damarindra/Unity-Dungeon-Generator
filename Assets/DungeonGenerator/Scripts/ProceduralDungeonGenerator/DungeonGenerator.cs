@@ -8,8 +8,8 @@ namespace DI.DungeonGenerator
 		
 		public virtual void StartRoomGeneration() { }
 		[HideInInspector] public List<Room> rooms = new List<Room>();
-		[HideInInspector] public List<Corridor> corridors = new List<Corridor>();
-		[SerializeField] protected int corridorWidth = 1;
+		//[HideInInspector] public List<Corridor> corridors = new List<Corridor>();
+		[SerializeField] protected int corridorWidth = 3;
 		
 		#region UNITY_EDITOR
 #if UNITY_EDITOR
@@ -39,11 +39,11 @@ namespace DI.DungeonGenerator
 				UnityEditor.Handles.Label(topLeft + Vector2.right, rooms[i].id.ToString());
 
 			}
-			foreach (Corridor r in corridors)
-			{
-				foreach (Rect cr in r.ways)
-					Gizmos.DrawCube(cr.center, cr.size);
-			}
+			//foreach (Corridor r in corridors)
+			//{
+			//	foreach (Rect cr in r.ways)
+			//		Gizmos.DrawCube(cr.center, cr.size);
+			//}
 		}
 
 		public void CreateColliderVisual()

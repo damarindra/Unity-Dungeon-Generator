@@ -10,6 +10,7 @@ namespace DI.DungeonGenerator
 	{
 		public int id;
 		public Rect rect;
+		public List<Door> doorPositions = new List<Door>();
 
 		public Room() { }
 		public Room(Vector2Int position, Vector2Int size)
@@ -33,6 +34,7 @@ namespace DI.DungeonGenerator
 			return rect.Overlaps(r);
 		}
 		
+		[System.Obsolete("Use Rect.Intersect()")]
 		public bool Intersect(Vector2 p1, Vector2 p2, out List<Vector2> intersection)
 		{
 			intersection = new List<Vector2>();
@@ -48,22 +50,65 @@ namespace DI.DungeonGenerator
 
 			return intersection.Count != 0;
 		}
-		public bool Intersect(Vector2 p1, Vector2 p2, out Vector2 point)
-		{
-			point = new Vector2();
-			if (Math2d.LineSegmentsIntersection(p1, p2, rect.position, rect.position + Vector2.up * rect.height, out point))
-				return true;
-			else if (Math2d.LineSegmentsIntersection(p1, p2, rect.position, rect.position + Vector2.right * rect.width, out point))
-				return true;
-			else if (Math2d.LineSegmentsIntersection(p1, p2, rect.position + rect.size, rect.position + Vector2.up * rect.height, out point))
-				return true;
-			else if (Math2d.LineSegmentsIntersection(p1, p2, rect.position + rect.size, rect.position + Vector2.right * rect.width, out point))
-				return true;
+	}
 
-			return false;
+	[System.Serializable]
+	public class Door
+	{
+		public Vector2Int position
+		{
+			get
+			{
+				return new Vector2Int((int)doorRect.position.x, (int)doorRect.position.y);
+			}
+			set
+			{
+				doorRect.position = value;
+			}
+		}
+		public Vector2Int size
+		{
+			get { return new Vector2Int((int)doorRect.size.x, (int)doorRect.size.y); }
+			set { doorRect.size = value; }
+		}
+		private Rect doorRect;
+		public Rect corridor;
+		//0 : no direction, 1 : vertical direction, 2 : horizontal direction
+		public CorridorDir corridorDir = 0;
+	}
+
+	public static class RectExtension
+	{
+		public static bool Intersect(this Rect _r, Vector2 p1, Vector2 p2, out Vector2 point)
+		{
+			bool result = false;
+			point = new Vector2();
+			if (Math2d.LineSegmentsIntersection(p1, p2, _r.position, _r.position + Vector2.up * _r.height, out point))
+			{
+				result = true;
+				p2 = point;
+			}
+			if (Math2d.LineSegmentsIntersection(p1, p2, _r.position, _r.position + Vector2.right * _r.width, out point))
+			{
+				result = true;
+				p2 = point;
+			}
+			if (Math2d.LineSegmentsIntersection(p1, p2, _r.position + Vector2.up * _r.height, _r.position + _r.size, out point))
+			{
+				result = true;
+				p2 = point;
+			}
+			if (Math2d.LineSegmentsIntersection(p1, p2, _r.position + Vector2.right * _r.width, _r.position + _r.size, out point))
+			{
+				result = true;
+				p2 = point;
+			}
+			point = p2;
+			return result;
 		}
 	}
 
+	/*
 	[System.Serializable]
 	public class Corridor
 	{
@@ -107,6 +152,6 @@ namespace DI.DungeonGenerator
 			}
 			return result;
 		}
-	}
+	}*/
 
 }

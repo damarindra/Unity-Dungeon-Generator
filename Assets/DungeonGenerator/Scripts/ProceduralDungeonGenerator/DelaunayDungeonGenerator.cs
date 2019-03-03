@@ -94,7 +94,9 @@ namespace DI.DungeonGenerator
 
 				if(r1 == null || r2 == null)
 				{
+#if DEBUG_MODE
 					Debug.Log("Dude, something doesn't right! Room is not detected in triangulation! Check here");
+#endif
 				}
 				else 
 				{
@@ -107,7 +109,7 @@ namespace DI.DungeonGenerator
 		{
 			dg.StartRoomGeneration();
 			StartTriangulation();
-			dg.StartCorridorsGeneration(mainRooms, dg.corridors);
+			dg.StartCorridorsGeneration(mainRooms);
 		}
 
 #if UNITY_EDITOR
@@ -135,9 +137,9 @@ namespace DI.DungeonGenerator
 					Gizmos.DrawLine((Vector3)left, (Vector3)right);
 				}
 			}
-			Gizmos.color = Color.magenta;
 			for (int i = 0; i < mainRooms.Count; i++)
 			{
+				Gizmos.color = Color.magenta;
 				Vector2 bottomLeft = mainRooms[i].rect.position;
 				Vector2 topRight = mainRooms[i].rect.position + mainRooms[i].rect.size;
 				Vector2 topLeft = bottomLeft + Vector2.up * mainRooms[i].rect.height;
@@ -149,6 +151,32 @@ namespace DI.DungeonGenerator
 				Gizmos.DrawLine(topRight, bottomRight);
 
 				UnityEditor.Handles.Label(topLeft + Vector2.right, mainRooms[i].id.ToString());
+
+				Gizmos.color = Color.red;
+				foreach(Door r in mainRooms[i].doorPositions)
+				{
+					Gizmos.color = Color.green;
+					bottomLeft = r.position;
+					topRight = r.position + r.size;
+					topLeft = bottomLeft + Vector2.up * r.size.y;
+					bottomRight = bottomLeft + Vector2.right * r.size.x;
+
+					Gizmos.DrawLine(bottomLeft, bottomRight);
+					Gizmos.DrawLine(bottomLeft, topLeft);
+					Gizmos.DrawLine(topRight, topLeft);
+					Gizmos.DrawLine(topRight, bottomRight);
+
+					Gizmos.color = Color.red;
+					bottomLeft = r.corridor.position;
+					topRight = r.corridor.position + r.corridor.size;
+					topLeft = bottomLeft + Vector2.up * r.corridor.height;
+					bottomRight = bottomLeft + Vector2.right * r.corridor.width;
+
+					Gizmos.DrawLine(bottomLeft, bottomRight);
+					Gizmos.DrawLine(bottomLeft, topLeft);
+					Gizmos.DrawLine(topRight, topLeft);
+					Gizmos.DrawLine(topRight, bottomRight);
+				}
 			}
 #endif
 		}
