@@ -348,12 +348,17 @@ namespace DI.DungeonGenerator
 					lR1.y = Mathf.Abs(r1.rect.y - r2.rect.y);
 					lR2.y = Mathf.Abs((r1.rect.y + r1.rect.height )- (r2.rect.y + r2.rect.height));
 				}
+				//if((r1.id == 7 || r1.id == 16) && (r2.id == 7 || r2.id == 16))
+				//{
+				//	Debug.Log(lR1);
+				//	Debug.Log(lR2);
+				//}
 
 				CreateLConnectionLib(r1, r2, lR1.x * r1Direction.x, lR2.y * r2Direction.y, _rooms, ref rcl);
 				CreateLConnectionLib(r2, r1, lR2.x * r2Direction.x, lR1.y * r1Direction.y, _rooms, ref rcl);
 			}
 		}
-
+		private List<RoomConnectionLib.Line> debugLine = new List<RoomConnectionLib.Line>(); 
 		/// <summary>
 		/// 
 		/// </summary>
@@ -367,8 +372,6 @@ namespace DI.DungeonGenerator
 		{
 			int startIndex = rcl.lConnections.Count;
 
-			if ((r1.id == 16 || r1.id == 25) && (r2.id == 16 || r2.id == 25))
-				print(height);
 			List<int> sizeEachColumn = new List<int>();
 			//loop vertical (height from room 1)
 			for (int y = 0; y < r1.rect.height; y++)
@@ -376,9 +379,9 @@ namespace DI.DungeonGenerator
 				Vector2 start = new Vector2(r1.rect.x, y + r1.rect.y + 0.1f);
 				if (width > 0)
 					start.x = r1.rect.x + r1.rect.width - 0.1f;
-				Vector2 end = new Vector2(r1.rect.x + width + 0.5f * Mathf.Sign(width), start.y);
+				Vector2 end = new Vector2(start.x + width + 0.5f * Mathf.Sign(width), start.y);
 				RoomConnectionLib.Line l1;
-				if (IsLineCollideWithRoomsOrCorridor(start, end, out l1, _rooms, r1, false, corridorWidth)) {
+				if (IsLineCollideWithRoomsOrCorridor(start, end, out l1, _rooms, r1, false, corridorWidth))	{
 					//Make it imposible to do corridor
 					if (l1.Length < corridorWidth)
 						l1.v2 = l1.v1;
@@ -413,6 +416,12 @@ namespace DI.DungeonGenerator
 					else l2 = new RoomConnectionLib.Line(start, end);
 					l2.direction = (end - start).normalized;
 
+					//if ((r1.id == 7 || r1.id == 26) && (r2.id == 7 || r2.id == 26))
+					//{
+					//	debugLine.Add(l1);
+					//	//debugLine.Add(l2);
+					//}
+
 					//if 2 line intersection, then this will become corridor
 					Vector2 itsc;
 					if (LineSegmentsIntersection.Math2d.LineSegmentsIntersection(l2.v1, l2.v2, l1.v1, l1.v2, out itsc)) {
@@ -436,9 +445,9 @@ namespace DI.DungeonGenerator
 					}
 				}
 				//remove the last possible connection(width)
-				for (int i = 0; i < corridorWidth + 1; i++)
+				for (int i = 0; i < corridorWidth; i++)
 				{
-					if (rcl.lConnections.Count == 0 || w <= 0)
+					if (rcl.lConnections.Count == 0 || w <= 1)
 						break;
 					rcl.lConnections.RemoveAt(rcl.lConnections.Count - 1);
 					w--;
@@ -448,7 +457,7 @@ namespace DI.DungeonGenerator
 			}
 
 			//remove the last possible connection(height)
-			for (int i = 0; i < corridorWidth + 1; i++)
+			for (int i = 0; i < corridorWidth; i++)
 			{
 				if (sizeEachColumn.Count - 1 - i < 0)
 					break;
@@ -560,7 +569,7 @@ namespace DI.DungeonGenerator
 				Vector2 p;
 				if (r.rect.Intersect(start, end, out p))
 				{
-					p -= (end - start).normalized * reduction;
+					p -= (end - start).normalized * (reduction - 0.1f);
 					line.v2 = p;
 					return true;
 				}
@@ -569,7 +578,7 @@ namespace DI.DungeonGenerator
 					Vector2 _p;
 					if(d.corridor.Intersect(start, end, out _p))
 					{
-						_p -= (end - start).normalized * reduction;
+						_p -= (end - start).normalized * (reduction - 0.1f);
 						line.v2 = _p;
 						return true;
 					}
@@ -692,7 +701,13 @@ namespace DI.DungeonGenerator
 
 
 			}
-			
+
+			//foreach (RoomConnectionLib.Line l in debugLine)
+			//{
+			//	Gizmos.DrawLine(l.v1, l.v2);
+
+			//}
+
 			Gizmos.color = Color.yellow;
 			if (drawPossibleCorridor)
 			{
